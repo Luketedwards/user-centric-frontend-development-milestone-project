@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&display=swap');
+
+
+#navbar-styling{
+    height: 100px;
+    padding: 5px;
+}
+
+.nav-right{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+#logo{
+    font-family: "Satisfy", sans-serif;
+    font-size: 40px;
+    color: #fafafa;
+    padding-right: 55%;
+    padding-left: 10px;
+}
+
+#nav-div{
+    padding: 0;
+}
+
+.nav-item{
+    font-size: 20px;
+    color: #fafafa;
+}
+
+ a{
+    color: #fafafa;
+}
+
+img{
+    width: 100%;
+    z-index: 2;
+    border: solid 8px #fafafa;
+}
+
+
+
+
+.hero-section{
+    position:relative;
+}
+
+.hero-text{
+    position: absolute;
+    z-index: 3;
+    padding-left: 50%;
+    text-align: center center;
+    color: blue;
+}
