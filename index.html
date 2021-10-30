@@ -8,20 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/15075673e9.js" crossorigin="anonymous"></script>
 
     <title>Hiraeth Guitars</title>
   </head>
   <body>
 
     <div class="container-fluid navigation" id="nav-div"> 
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-right sticky-top" id="navbar-styling">
+      <nav class="navbar navbar-expand-lg  nav-right sticky-top" id="navbar-styling">
         <a class="navbar-brand" id="logo" href="index.html">Hiraeth Guitars</a>
         <div class="dropdown-menu-right">
           <button class="navbar-toggler dropdown-menu-right" id="navbar-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+          <div class="collapse navbar-collapse navbar-brand" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-brand " id="float-right">
               <a class="nav-item nav-link active navbar-items" href="#">Gallery <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link navbar-items" href="#">Product Range</a>
               <a class="nav-item nav-link navbar-items" href="#">Contact</a>
@@ -34,27 +35,95 @@
     </div>
 
 <section>
-  <div class="hero-container">
+  <div class="hero-container container-fluid">
     <img src="assets/images/Guitar Hero image.jpeg" alt="Guitar" style="width:100%;">
   
-    <div class="centered-hero-text">The Finest Hand Crafted Guitars</div>
+    <div class="centered-hero-text">
+      <h1>The Finest Hand Crafted Guitars</h1>
+      <h2>View our catalogue</h2>
+      <a href="#"><button>Products</button></a>
+    </div>
   </div>
 </section>
 <hr>
+
 <section class="about-us">
+<div class="container-fluid">
 <div class="row">
-  <div class="col-6">
+  <div class="col-lg-6 col-md-6 col-sm-12">
     <h2>Our Story</h2>
     <p>Founded in 1996, Hiraeth Guitars has been building the finest hand-crafted instruments in Wales for over 20 years. Meticulous and impeccable build quality; we only use the finest timbers from around the world. All tonewoods used by Hiraeth Guitars are sustainably sourced from ethical wood mills. </p>
   </div>
-  <div class="col-6">
+  <div class="col-md-6  d-sm-block">
     <img src="assets/images/workshop.jpg" alt="">
   </div>
+</div>
 </div>
 
 </section>
 
+<section>
+  <div class="container-fluid quotes-color">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="quotes-header">Quotes</h2>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 quotes">
+          <h3>
+            Unbelievable build quality. I've never played another guitar like my Hiraeth!
+          </h3>
+          <img src="assets/images/Woman-1.jpg" alt="Woman">
+          <p>
+          -  Gabby Solis
+          </p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 quotes">  
+          <h3>
+            Unparalleled tone and playability. I highly recommened Hiraeth Guitars!
+          </h3>
+          <img src="assets/images/woman-2.jpg" alt="Woman">
+          <p>
+          -  Bree Vandekamp
+          </p>
+      </div>     
+      <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block d-m-none d-sm-none quotes">
+          <h3>
+            Honestly flawless in every way. I never put my Hiraeth down!
+          </h3>
+          <img src="assets/images/man.jpg" alt="man">
+          <p>
+          -  Mike Delfino
+          </p>
+      </div>     
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+
   <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 footer-text">
+          <h3> Connect With Us</h3>
+          <p> 
+            <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
+            <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
+            <a href="youtube.com" target="_blank"><i class="fab fa-youtube"></i> </a>
+            <a href="twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a>
+          </p>
+        </div>
+        <div class="col-12 footer-form">
+          <form action="POST">
+            <input type="email" placeholder="Enter Your Email">
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+    </div>
 
 
   </footer>
