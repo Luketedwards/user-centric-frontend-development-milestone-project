@@ -100,6 +100,13 @@ body{
     padding: 0;
 }
 
+.dropdown-menu-right{
+    float:right;
+    position: relative;
+    margin-left: 60%;
+}
+
+
 .footer-text{
     text-align: center;
     padding-top: 40px;
@@ -122,6 +129,12 @@ body{
     padding-top: 20px;
     padding-bottom: 50px;
     background-color: #844d36;
+}
+.footer-form input{
+    background-color: #fafafa;
+    font-family: "Playfair display", sans-serif;
+    border: solid black 2px;
+    border-radius: 10px;
 }
 
 .nav-item{
@@ -154,7 +167,17 @@ hr{
 }
 
 #navbar-button{
-    background-color:black;
+    background-color:#fafafa;
+    z-index: 0;
+}
+
+.products-button{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: "Playfair display", sans-serif;
+    background-color:#fafafa;
+    border: solid black 2px;
+    border-radius: 10px;
 }
 
 .hero-section{
@@ -192,6 +215,11 @@ background-color: black;
     color: white;
   }
 
+.quotes-header{
+    font-family: "Playfair display", sans-serif;
+    font-size: 75px;
+}
+
 .quotes {
     padding-left: 50px;
     padding-bottom: 100px;
@@ -200,7 +228,7 @@ background-color: black;
 
 .quotes h3{
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 25px;
     width: 80%;
 }
@@ -208,11 +236,49 @@ background-color: black;
 .quotes img{
     width: 100px;
     height: 100px;
+    border: #fafafa solid 1px;
     border-radius: 50px;
     float:center;
+    margin-left: 30px;
 }
  .quotes p{
      padding: 10px 10px;
+ }
+
+ .contact-page{
+     text-align: center;
+     font-family: "Playfair display";
+     font-weight: 500;
+     color: #fafafa;
+     background-image: url("/assets/images/workshop.jpg") ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ }
+
+ .contact-page h2{
+    margin-top: 100px;
+ }
+
+ .contact-page input{
+     margin-top: 10px;
+     margin-bottom: 160px;
+     width: 5%;
+    
+ }
+
+ #contact-text-area{
+     padding-top: 0;
+     height: 200px;
+     width: 50%;
+     margin-top: 80px;
+     margin-bottom: 30px;
+ }
+
+ .contact-form-text{
+    margin-left: 30%;
+    background-color:rgba(76, 66, 66, 0.5);
+    width: 40%;
  }
 /*-------------------------- General*/
 /*-------------------------- Navigation*/
