@@ -291,6 +291,17 @@ background-color: black;
      width:20%;
      margin-bottom: 10px;
  }
+
+ #photos{
+    clear: both;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    background-color: rgba(76, 66, 66, 0.5);
+}
 /*-------------------------- General*/
 /*-------------------------- Navigation*/
 /*-------------------------- Colors*/
