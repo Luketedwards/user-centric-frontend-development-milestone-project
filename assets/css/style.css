@@ -264,6 +264,10 @@ background-color: black;
      margin-top: 10px;
      margin-bottom: 160px;
      width: 5%;
+     background-color: #fafafa;
+     font-family: "Playfair display", sans-serif;
+     border: solid black 2px;
+     border-radius: 10px;
     
  }
 
@@ -271,14 +275,21 @@ background-color: black;
      padding-top: 0;
      height: 200px;
      width: 50%;
-     margin-top: 80px;
+     margin-top: 20px;
      margin-bottom: 30px;
  }
 
  .contact-form-text{
     margin-left: 30%;
+    
     background-color:rgba(76, 66, 66, 0.5);
     width: 40%;
+    
+ }
+
+ #contact-form-email{
+     width:20%;
+     margin-bottom: 10px;
  }
 /*-------------------------- General*/
 /*-------------------------- Navigation*/
