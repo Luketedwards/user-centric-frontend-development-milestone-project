@@ -14,35 +14,50 @@
   <body>
 
     <div class="container-fluid navigation" id="nav-div"> 
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-right" id="navbar-styling">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark nav-right sticky-top" id="navbar-styling">
         <a class="navbar-brand" id="logo" href="index.html">Hiraeth Guitars</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active navbar-items" href="#">Gallery <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link navbar-items" href="#">Product Range</a>
-            <a class="nav-item nav-link navbar-items" href="#">Contact</a>
-            <a class="nav-item nav-link navbar-items" href="#">Pricing</a>
-            
-          </div>
+        <div class="dropdown-menu-right">
+          <button class="navbar-toggler dropdown-menu-right" id="navbar-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active navbar-items" href="#">Gallery <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link navbar-items" href="#">Product Range</a>
+              <a class="nav-item nav-link navbar-items" href="#">Contact</a>
+              <a class="nav-item nav-link navbar-items" href="#">Pricing</a>
+              
+            </div>
+        </div>  
         </div>
       </nav>
     </div>
 
-  <section class="hero-section">
-    <div id="overlay">
-    <div class="col-12" >
-      <div>
-        <div class="row">
-          <h1 class="hero-text">The Finest Handcrafted Guitars</h1>
-          <img src="/assets/images/Guitar Hero image.jpeg" alt="">
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+<section>
+  <div class="hero-container">
+    <img src="assets/images/Guitar Hero image.jpeg" alt="Guitar" style="width:100%;">
+  
+    <div class="centered-hero-text">The Finest Hand Crafted Guitars</div>
+  </div>
+</section>
+<hr>
+<section class="about-us">
+<div class="row">
+  <div class="col-6">
+    <h2>Our Story</h2>
+    <p>Founded in 1996, Hiraeth Guitars has been building the finest hand-crafted instruments in Wales for over 20 years. Meticulous and impeccable build quality; we only use the finest timbers from around the world. All tonewoods used by Hiraeth Guitars are sustainably sourced from ethical wood mills. </p>
+  </div>
+  <div class="col-6">
+    <img src="assets/images/workshop.jpg" alt="">
+  </div>
+</div>
+
+</section>
+
+  <footer>
+
+
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -10,16 +10,58 @@
     width: 100%;
 }
 
-.container{
-    width: 100%;
-}
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
 
+  img{
+      padding: 0;
+      margin: 0;
+  }
+
+  .centered-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin-left:  10%;
+    margin-right: 10%;
+    width: 50%;
+    color: #fafafa;
+    font-size: 45px;
+    font-family: "Playfair display", sans-serif;
+    font-weight: 600;
+    background-color:rgba(76, 66, 66, 0.5);
+    border: black solid 4px;
+    
+    }
 #logo{
     font-family: "Satisfy", sans-serif;
     font-size: 40px;
     color: #fafafa;
-    padding-right: 55%;
+    padding-right: 45%;
     padding-left: 10px;
+}
+
+body{
+    font-family: "Playfair display", sans-serif;
+}
+
+.about-us{
+    
+    padding-bottom: 20px;
+    background-color: gray;
+}
+
+.about-us h2,p{
+    padding-left: 10px;
+}
+.about-us img{
+    padding-right: 10px;
 }
 
 #nav-div{
@@ -38,20 +80,59 @@
 img{
     width: 100%;
     z-index: 2;
-    border: solid 8px #fafafa;
+    
+}
+hr{
+    color: #fafafa;
+    width: 100%;
+    height: 2px;
+    margin: 0;
 }
 
+.float-right{
+    float: right;
+}
 
-
+#navbar-button{
+    background-color:black;
+}
 
 .hero-section{
     position:relative;
 }
 
+#hero-writing{
+background-color: black;
+
+}
+
+#jumbo-center{
+    position: relative;
+    text-align: center;
+
+}
+.hero-div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    z-index: 4;
+}
+
+
 .hero-text{
     position: absolute;
-    z-index: 3;
-    padding-left: 50%;
-    text-align: center center;
-    color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/*-------------------------- General*/
+/*-------------------------- Navigation*/
+/*-------------------------- Colors*/
+
