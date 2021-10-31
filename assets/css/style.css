@@ -302,6 +302,28 @@ background-color: black;
     column-gap: 0px;
     background-color: rgba(76, 66, 66, 0.5);
 }
+
+.products-text{
+    text-align: center;
+}
+
+.products-text h2{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.products-text h3{
+    margin-bottom: 20px;
+}
+
+.product-image{
+    margin-right:15%;
+    margin-left: auto;
+    display:block;
+    padding: 0;
+   
+
+}
 /*-------------------------- General*/
 /*-------------------------- Navigation*/
 /*-------------------------- Colors*/
