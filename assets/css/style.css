@@ -171,6 +171,15 @@ hr{
     z-index: 0;
 }
 
+#navigation-right{
+    margin-left: 30%;
+}
+
+.navbar-links{
+    display: inline;
+    word-spacing: 3vw;
+}
+
 .products-button{
     margin-bottom: 15px;
     margin-top: 10px;
@@ -318,15 +327,17 @@ background-color: black;
 }
 
 .product-image{
-    margin-right:15%;
-    margin-left: auto;
-    display:block;
+    float: right;
+    display: block;
     padding: 0;
+    height: 400px;
+    margin-bottom: 30px;
 }
    
 .product-photos{
     height: 300px;
     width: 300px;
+    margin-bottom: 10px;
     image-rendering: optimizeSpeed;
 }
 
