@@ -14,37 +14,34 @@
   </head>
   <body>
 
-    <div class="container-fluid navigation" id="nav-div"> 
-      <nav class="navbar navbar-expand-lg  nav-right " id="navbar-styling">
-        <a class="navbar-brand" id="logo" href="index.html">Hiraeth Guitars</a>
-        <div class="dropdown-menu-right">
-          <button class="navbar-toggler " id="navbar-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse navbar-brand" id="navbarNavAltMarkup">
-            <div class="navbar-nav" >
-              <a class="nav-item nav-link active navbar-items" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link navbar-items" href="products.html">Product Range</a>
-              <a class="nav-item nav-link navbar-items" href="contact.html">Contact</a>
-              <a class="nav-item nav-link navbar-items" href="#">Pricing</a>
-              
-            </div>
-        </div>  
-        </div>
-      </nav>
-    </div>
+    <nav class="navbar navbar-dark navbar-expand-md "id="navbar-styling" >
+      <a href="/"  id="logo" class="navbar-brand">Hiraeth Guitars</a>
+  
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  
+          <ul class=" navbar-nav ml-auto float-right">
+              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" id="current-link" href="products.html">Products</a></li>
+              <li class="nav-item mr-3 active dropdown-list" ><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+  </div>
+  </nav>
     <hr>
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" id="products-first-div">
         <div class="row">
             <div class="col-12 products-text">
                 <h2>Products</h2>
             </div>
             <div class="row">
-              <div class="col-6">
+              <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                   <p>At Hiraeth Guitars we use only the finest timbers from around the globe. All wood is hand selected by our shop foreman for both a tight grain and consitent colour. We season all timbers for a minimum of two-years in our humdity and climate controlled timber warehouse. This ensures that only the optimum materials are used in any of our builds, regardless of the ange or cost. We also believe strongly in ethical and sustainable harvesting of tonewoods; choosing to source our materials only from certified saw-mills. We have a wide variety of wood options available for your build, allowing for a diverse range of tonal possibilities and aesthetic options. Below are some of the material and body options for our standard range. For anything more exotic, please get in touch; we'd be happy to discuss your aims.</p>
                </div>
-               <div class="col-6">
+               <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                   <img class="product-image" src="/assets/compressed-images/Timber stack.jpeg" alt="A stack of processed timber">
               </div>
                 </div> 
@@ -54,24 +51,25 @@
 </section>
 <hr>
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" id="products-second-div">
         <div class="row">
-            <div class="col-12 products-text" >
+            <div class="col-12  products-text" >
                 <h2>Wood Options - Back and Sides</h2>
+                
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h3>Indian Rosewood</h3>
                 <p>Indian rosewood’s wide frequency range at both ends of the tonal spectrum has made it one of the most sought-after and musically rich tonewoods. Its deep bass response can assert a throaty growl, while bright, sparkling treble notes ring out with bell-like clarity.</p>
                 <img class="product-photos" src="/assets/compressed-images/ebony wood .jpeg" alt="Ebony Wood">
                 <audio controls src="/assets/audio/Rosewood.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h3>Mahogany</h3>
                 <p>Mahogany is renowned for its substantial midrange character, creating a strong fundamental tone often described as “punchy,” or “woody,” because it doesn’t produce a lot of ringing overtones. Mahogany’s warm, earthy voice has been featured on a plethora of roots music recordings over the years.</p>
                 <img class="product-photos" src="/assets/compressed-images/mahogany.jpeg" alt="Mahogany Wood">
                 <audio controls src="/assets/audio/Mahogany.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h3>Maple</h3>
                 <p>Maple has a long association as a very bright acoustic tonewood, but Hiraeth's maple built guitars are voiced to bring out greater warmth, richness and sustain. This broadens maple’s tonal range significantly from a one-dimensional sound to a more musical and versatile voice.</p>
                 <img class="product-photos" src="/assets/compressed-images/maple.jpeg" alt="Maple Wood">
@@ -82,24 +80,27 @@
 </section>
 <hr>
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" id="products-third-div">
         <div class="row">
             <div class="col-12 products-text">
+              
                 <h2>Wood Options - Top</h2>
+                
             </div>
-            <div class="col-4 products-text">
+            
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>Sitka Spruce</h2>
                 <p>test test test</p>
                 <img class="product-photos" src="/assets/compressed-images/spruce.jpeg" alt="Sitka Spruce Wood">
                 <audio controls src="/assets/audio/Spruce.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>Adirondack Spruce</h2>
                 <p>test test test</p>
                 <img class="product-photos" src="/assets/compressed-images/adirondack spruce.jpeg" alt="Adirondack Spruce Wood">
                 <audio controls src="/assets/audio/Adirondack.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>Cedar</h2>
                 <p>test test test</p>
                 <img class="product-photos" src="/assets/compressed-images/cedar.jpeg" alt="Cedar wood">
@@ -110,24 +111,24 @@
 </section>
 <hr>
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid" id="products-fourth-div">
         <div class="row">
             <div class="col-12 products-text">
                 <h2>Body Shapes</h2>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>Jumbo</h2>
                 <p>test test test</p>
                 <img class="guitar-photos" src="/assets/compressed-images/Jumbo Guitar.jpeg" alt="Jumbo Guitar">
                 <audio controls src="/assets/audio/Jumbo.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>OM</h2>
                 <p>test test test</p>
                 <img class="guitar-photos" src="/assets/compressed-images/om guitar.jpeg" alt="Orchestra Model Guitat">
                 <audio controls src="/assets/audio/OM.mp3"></audio>
             </div>
-            <div class="col-4 products-text">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 products-text">
                 <h2>Parlor</h2>
                 <p>test test test</p>
                 <img class="guitar-photos" src="/assets/compressed-images/Dreadnaught.jpeg" alt="Dreadnaught guitar">

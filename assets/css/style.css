@@ -52,13 +52,30 @@
     font-family: "Satisfy", sans-serif;
     font-size: 40px;
     color: #fafafa;
-    padding-right: 45%;
-    padding-left: 10px;
+    padding-left: 5px;
+    
     position:absolute;
+    margin-left: 0;
 }
 
 body{
     font-family: "Playfair display", sans-serif;
+}
+
+#products-first-div{
+    background-color: #86B3D1;
+}
+
+#products-second-div{
+    background-color: #AAA0A0;
+}
+
+#products-third-div{
+    background-color: #8e8268;
+}
+
+#products-fourth-div{
+    background-color: #fafafa;
 }
 
 .about-us{
@@ -142,6 +159,16 @@ body{
     color: #fafafa;
 }
 
+.dropdown-list{
+    z-index: 1000;
+}
+
+#current-link{
+    text-decoration: #fafafa underline;
+}
+.nav-item:hover{
+    text-decoration:underline blue;
+}
  a{
     color: #fafafa;
 }
@@ -259,6 +286,7 @@ background-color: black;
      font-family: "Playfair display";
      font-weight: 500;
      color: #fafafa;
+     background-color: #AAA0A0;
      background-image: url("/assets/images/workshop.jpg") ;
      background-size: cover;
      background-repeat: no-repeat;
@@ -282,24 +310,38 @@ background-color: black;
 
  #contact-text-area{
      padding-top: 0;
-     height: 200px;
-     width: 50%;
+     padding-left: 10px;
+     padding-bottom: 130px;
+     height: 190px;
+     width: 30%;
      margin-top: 20px;
      margin-bottom: 30px;
  }
 
  .contact-form-text{
-    margin-left: 30%;
-    
+    margin-left:20%;
     background-color:rgba(76, 66, 66, 0.5);
-    width: 40%;
+    width: 60%;
     
  }
 
  #contact-form-email{
      width:20%;
      margin-bottom: 10px;
+     padding-left: 10px;
  }
+
+ #contact-submit{
+    width: 9%;
+}
+#contact-submit:hover{
+    background-color: #AAA0A0;
+}
+
+#footer-submit:hover{
+    background-color: #AAA0A0;  
+}
+
 
  #photos{
     clear: both;
@@ -332,6 +374,7 @@ background-color: black;
     padding: 0;
     height: 400px;
     margin-bottom: 30px;
+    border: solid black 2px;
 }
    
 .product-photos{
@@ -339,12 +382,21 @@ background-color: black;
     width: 300px;
     margin-bottom: 10px;
     image-rendering: optimizeSpeed;
+    border: solid black 2px;
 }
 
 .guitar-photos{
     height: 450px;
     width: 400px;
     image-rendering: optimizeSpeed;
+    border: solid black 2px;
+}
+
+.products-text audio{
+    border: solid black 2px;
+    border-radius: 40px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 html,body
@@ -370,8 +422,35 @@ html,body
     html, body{
         overflow-x:hidden;
     }
+    #contact-form-email{
+        width:50%;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
     
+   
+
+    #contact-text-area{
+        padding-top: 0;
+        padding-left: 10px;
+        padding-bottom: 130px;
+        height: 160px;
+        width: 70%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .contact-form-text{
+        margin-left:10%;
+        background-color:rgba(76, 66, 66, 0.5);
+        width: 80%;
+        
+     }
+    #contact-submit{
+        width: 25%;
+    } 
 }
+
+
 /*-------------------------- General*/
 /*-------------------------- Navigation*/
 /*-------------------------- Colors*/
