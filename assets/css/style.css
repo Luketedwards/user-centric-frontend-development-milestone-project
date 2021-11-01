@@ -308,6 +308,14 @@ background-color: black;
     
  }
 
+ .contact-details{
+
+ }
+
+ iframe{
+     margin-bottom: 20px;
+ }
+
  #contact-text-area{
      padding-top: 0;
      padding-left: 10px;
