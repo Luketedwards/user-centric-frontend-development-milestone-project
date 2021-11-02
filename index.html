@@ -24,9 +24,17 @@
   
           <ul class=" navbar-nav ml-auto float-right">
               <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" href="gallery.html">Gallery</a></li>
-              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" href="products.html">Products</a></li>
+              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" id="current-link" href="products.html">Products</a></li>
               <li class="nav-item mr-3 active dropdown-list" ><a class="nav-link" href="contact.html">Contact</a></li>
-              <li class="nav-item mr-3 active dropdown-list"><a class="nav-link" href="/assets/pdf/Hiraeth Guitars Price list 2021.pdf" target="_blank">Pricing</a></li>
+              <li class="nav-item mr-3 active dropdown-list" id="pricing-normal-link"><a class="nav-link" href="/assets/pdf/Hiraeth Guitars Price list 2021.pdf" target="_blank">Pricing</a></li>
+              
+              <li class="nav-item dropdown" id="pricing-dropdown">
+                <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pricing
+                </a>
+                <div class="dropdown-menu mr-5" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/assets/pdf/Hiraeth Guitars Price list 2021.pdf" target="_blank">View Online</a>
+                  <a class="dropdown-item" href="/assets/pdf/Hiraeth Guitars Price list 2021.pdf" download="Hiraeth Guitars Price List 2021" >Download PDF</a>
           </ul>
   </div>
   </nav>
@@ -51,7 +59,7 @@
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12">
     <h2>Our Story</h2>
-    <p>Founded in 1996, Hiraeth Guitars has been building the finest hand-crafted instruments in Wales for over 20 years. Meticulous and impeccable build quality; we only use the finest timbers from around the world. All tonewoods used by Hiraeth Guitars are sustainably sourced from ethical wood mills. </p>
+    <p>Founded in 1996, Hiraeth Guitars has been building the finest hand-crafted instruments in Wales for over 20 years. Meticulous and impeccable build quality; we only use the finest timbers from around the world. All tonewoods used by Hiraeth Guitars are sustainably sourced from ethical wood mills, and hand selected to ensure optimum quality. Every aspect of our guitars are scrutinised and inspected by our expert luthiers to guarantee nothing less than perfect leaves our workshop. Because we have total faith in our products, every instrument made by Hiraeth Guitars comes with a whole-life guarantee. This means that if you purchase a Hiraeth guitar as either a first or tenth owner, any defect in construction or manufacturing will be guaranteed by our team.</p>
   </div>
   <div class="col-md-6  d-sm-block">
     <img src="/assets/compressed-images/workshop.jpeg" alt="Guitar workshop">
@@ -110,15 +118,15 @@
       <div class="col-12 footer-text">
         <h3> Connect With Us</h3>
         <p> 
-          <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
-          <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
-          <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> </a>
-          <a href="twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a>
+          <a href="facebook.com" target="_blank" class="font-awesome-hover"><i class="fab fa-facebook"></i> </a>
+          <a href="instagram.com" target="_blank" class="font-awesome-hover"><i class="fab fa-instagram"></i> </a>
+          <a href="https://www.youtube.com" target="_blank" class="font-awesome-hover"><i class="fab fa-youtube"></i> </a>
+          <a href="twitter.com" target="_blank" class="font-awesome-hover"><i class="fab fa-twitter"></i> </a>
         </p>
       </div>
       <div class="col-12 footer-form">
-        <form action="POST">
-          <input type="email" placeholder="Enter Your Email">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+          <input name="Email-address-for-newsletter" type="email" placeholder="Enter Your Email">
           <input id="footer-submit" type="submit">
         </form>
       </div>
