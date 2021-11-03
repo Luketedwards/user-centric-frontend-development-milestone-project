@@ -33,12 +33,9 @@
   }
 
  .hero-container img{
-    animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
-    margin-top: 45px;
-    margin-bottom:45px;
  } 
 
   img{
@@ -262,13 +259,14 @@ body{
     margin-top: 10px;
     font-family: "Playfair display", sans-serif;
     background-color:#fafafa;
-    border: solid #fafafa 2px;
+    border:  2px;
     border-radius: 10px;
     
 }
 
 .products-button:hover{
     background-color:#ADADAD ;
+    color: #fafafa;
 }
 
 .hero-section{
@@ -373,17 +371,11 @@ background-color: black;
     position: unset;
     height: 450px;
     position:relative;
-    right: 3%;
-    
-    
-    
-    
+    right: 3%;   
  }
 
  .contact-details h3{
-     padding-bottom: 15px;
-     
-     
+     padding-bottom: 15px;  
  }
 
  iframe{
@@ -437,6 +429,9 @@ background-color: black;
     column-gap: 0;
     background-color:#ADADAD;
     
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .products-text{
@@ -574,6 +569,15 @@ background-color: black;
     to{
         transform: scale(1.1);
     }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 /*-------------------------- General*/
