@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&display=swap');
 
+/*-------------------------- General*/
 .body
 {
     width: 100%;
@@ -9,6 +10,48 @@
     overflow-x:hidden; 
 }
 
+body{
+    font-family: "Playfair display", sans-serif;
+}
+
+body{
+    color: #fafafa;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+#float-right{
+    float:right;
+}
+
+.font-awesome-hover:hover{
+    color: #ADADAD;
+    text-decoration: none;
+}
+
+a{
+    color: #fafafa;
+}
+
+img{
+    width: 100%;
+    z-index: 2;   
+}
+
+.float-right{
+    float: right;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/*----------------------------------------------------------------------- Navigation*/
 #navbar-styling{
     height: 100px;
     padding: 5px;
@@ -23,47 +66,6 @@
     width: 100%;
 }
 
-.hero-container {
-    position: relative;
-    text-align: center;
-    background-color:#64485c;
-    padding: 0;
-    margin: 0;
-
-  }
-
- .hero-container img{
-    animation: fadeInAnimation ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
- } 
-
-  img{
-      padding: 0;
-      margin: 0;
-  }
-
-  #float-right{
-      float:right;
-  }
-
-  .centered-hero-text {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    margin-left:  10%;
-    margin-right: 10%;
-    width: 50%;
-    color: #fafafa;
-    font-size: 45px;
-    font-family: "Playfair display", sans-serif;
-    font-weight: 600;
-    background-color:rgba(76, 66, 66, 0.5);
-    border: black solid 4px;
-    border-radius: 6px;
-    
-    }
 #logo{
     font-family: "Satisfy", sans-serif;
     font-size: 40px;
@@ -72,70 +74,6 @@
     
     position:absolute;
     margin-left: 5px;
-}
-
-body{
-    font-family: "Playfair display", sans-serif;
-}
-
-#products-first-div{
-    background-color: #adadad;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 18px;
-}
-
-#products-second-div{
-    background-color: #83677b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#products-third-div{
-    background-color: #ADADAD;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#products-fourth-div{
-    background-color: #83677b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.about-us{
-    
-    padding-bottom: 40px;
-    padding-top: 40px;
-    background-color: #83677b;
-}
-
-.about-us h2,p{
-    padding-left: 10px;
-}
-.about-us img{
-   padding-top: 10px;
-}
-
-.about-us p{
-    font-size: 22px;
-}
-
-.about-us h2{
-    font-weight: 700;
-    font-size: 40px;
-    padding-bottom: 10px;
-}
-
-.quotes-header{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.quotes-color{
-    background-color: #ADADAD;
-    padding-top:50px;
 }
 
 #nav-div{
@@ -166,32 +104,6 @@ body{
     text-decoration: none;
 }
 
-#quotes-hr{
-    margin-left: 45%;
-    background-color: #fafafa;
-    width: 10%;
-    height: 6px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
-}
-
-#contact-hr{
-    margin-left: 45%;
-    background-color: #fafafa;
-    width: 10%;
-    height: 4px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    
-}
-
-.font-awesome-hover:hover{
-    color: #ADADAD;
-    text-decoration: none;
-}
-
 .footer-form{
     text-align: center;
     padding-top: 20px;
@@ -205,35 +117,22 @@ body{
     border-radius: 10px;
 }
 
+#footer-submit:hover{
+    background-color: #ADADAD;
+    color: #fafafa;
+}
+
 .nav-item{
     font-size: 20px;
     color: #fafafa;
 }
 
+.nav-link:hover{
+    text-decoration: underline #fafafa;
+}
+
 .dropdown-list{
     z-index: 1000;
-}
-
-#current-link{
-    text-decoration: #fafafa underline;
-}
-
- a{
-    color: #fafafa;
-}
-
-#nav-color{
-    color: #844d36!important;
-}
-
-img{
-    width: 100%;
-    z-index: 2;
-    
-}
-
-.float-right{
-    float: right;
 }
 
 #navbar-button{
@@ -250,176 +149,168 @@ img{
     word-spacing: 3vw;
 }
 
-body{
-    color: #fafafa;
+#current-link{
+    text-decoration: underline #fafafa;
 }
+/*-------------------------- Colors*/
 
-.products-button{
-    margin-bottom: 15px;
-    margin-top: 10px;
-    font-family: "Playfair display", sans-serif;
-    background-color:#fafafa;
-    border:  2px;
-    border-radius: 10px;
-    
-}
 
-.products-button:hover{
-    background-color:#ADADAD ;
-    color: #fafafa;
-}
 
-.hero-section{
-    position:relative;
-}
 
-#hero-writing{
-background-color: black;
 
-}
-
-#jumbo-center{
+/*-------------------------- index.html*/
+.hero-container {
     position: relative;
     text-align: center;
+    background-color:#64485c;
+    padding: 0;
+    margin: 0;
 
-}
-.hero-div{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    z-index: 4;
-}
-
-
-.hero-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#container {
-    position: relative;
-    text-align: center;
-    color: white;
   }
 
-.quotes-header{
+ .hero-container img{
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ } 
+
+ .centered-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin-left:  10%;
+    margin-right: 10%;
+    width: 50%;
+    color: #fafafa;
+    font-size: 45px;
     font-family: "Playfair display", sans-serif;
-    font-size: 75px;
-}
-
-.quotes {
-    padding-left: 50px;
-    padding-bottom: 100px;
-    padding-top: 30px;
-}
-
-.quotes h3{
-    padding-bottom: 10px;
-    padding-left: 30px;
-    font-size: 25px;
-    width: 80%;
-}
-
-.quotes img{
-    width: 100px;
-    height: 100px;
-    border: #fafafa solid 1px;
-    border-radius: 50px;
-    float:center;
-    margin-left: 30px;
-}
- .quotes p{
-     padding: 10px 10px;
- }
-
- .contact-page{
-     text-align: center;
-     font-family: "Playfair display";
-     font-weight: 500;
-     color: #fafafa;
-     background-color: #AAA0A0;
-     background-image: url("/assets/images/workshop.jpg") ;
-     background-size: cover;
-     overflow: hidden;
-     background-repeat: no-repeat;
-     
- }
-
- .contact-page h2{
-    margin-top: 100px;
- }
-
- .contact-page input{
-     margin-top: 10px;
-     margin-bottom: 160px;
-     width: 5%;
-     background-color: #fafafa;
-     font-family: "Playfair display", sans-serif;
-     border: solid black 2px;
-     border-radius: 10px;
-    
- }
-
- .contact-details{
-    aspect-ratio: 16/9;
-    padding-top: 15px;
-    font-size: 20px;
-    background-color: #83677b;
-    margin-bottom: 10%;
-    position: unset;
-    height: 450px;
-    position:relative;
-    right: 3%;   
- }
-
- .contact-details h3{
-     padding-bottom: 15px;  
- }
-
- iframe{
-     margin-bottom: 20px;
-     width: 90%;
-     aspect-ratio: 16/9;
- }
-
- #contact-text-area{
-     padding-top: 0;
-     padding-left: 10px;
-     padding-bottom: 130px;
-     height: 190px;
-     width: 30%;
-     margin-top: 20px;
-     margin-bottom: 30px;
- }
-
- .contact-form-text{
-    margin-left:20%;
+    font-weight: 600;
     background-color:rgba(76, 66, 66, 0.5);
-    width: 60%;
+    border: black solid 4px;
+    border-radius: 6px;
+    }
+
+    .about-us{
     
- }
+        padding-bottom: 40px;
+        padding-top: 40px;
+        background-color: #83677b;
+    }
+    
+    .about-us h2,p{
+        padding-left: 10px;
+    }
+    .about-us img{
+       padding-top: 10px;
+    }
+    
+    .about-us p{
+        font-size: 22px;
+    }
+    
+    .about-us h2{
+        font-weight: 700;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .quotes-header{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .quotes-color{
+        background-color: #ADADAD;
+        padding-top:50px;
+    }
 
- #contact-form-email{
-     width:20%;
-     margin-bottom: 10px;
-     padding-left: 10px;
- }
+    #quotes-hr{
+        margin-left: 45%;
+        background-color: #fafafa;
+        width: 10%;
+        height: 6px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        
+    }
 
- #contact-submit{
-    width: 9%;
-}
-#contact-submit:hover{
-    background-color: #ADADAD;
-}
+    .products-button{
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-family: "Playfair display", sans-serif;
+        background-color:#fafafa;
+        border:  2px;
+        border-radius: 10px;
+        
+    }
+    
+    .products-button:hover{
+        background-color:#ADADAD ;
+        color: #fafafa;
+    }
+    
+    .hero-section{
+        position:relative;
+    }
+    
+    #hero-writing{
+    background-color: black;
+    
+    }
+    
+    #jumbo-center{
+        position: relative;
+        text-align: center;
+    
+    }
+    .hero-div{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        z-index: 4;
+    }
+    
+    
+    .hero-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-#footer-submit:hover{
-    background-color: #adadad;  
-}
-
-
- #photos{
+    .quotes-header{
+        font-family: "Playfair display", sans-serif;
+        font-size: 75px;
+    }
+    
+    .quotes {
+        padding-left: 50px;
+        padding-bottom: 100px;
+        padding-top: 30px;
+    }
+    
+    .quotes h3{
+        padding-bottom: 10px;
+        padding-left: 30px;
+        font-size: 25px;
+        width: 80%;
+    }
+    
+    .quotes img{
+        width: 100px;
+        height: 100px;
+        border: #fafafa solid 1px;
+        border-radius: 50px;
+        float:center;
+        margin-left: 30px;
+    }
+     .quotes p{
+         padding: 10px 10px;
+     }
+/*-------------------------- gallery.html*/
+#photos{
     clear: both;
     width: 100%;
     padding:0;
@@ -432,6 +323,127 @@ background-color: black;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+#gallery-section{
+    width: 100%;
+}
+/*-------------------------- contact.html*/
+#contact-hr{
+    margin-left: 45%;
+    background-color: #fafafa;
+    width: 10%;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+.contact-page{
+    text-align: center;
+    font-family: "Playfair display";
+    font-weight: 500;
+    color: #fafafa;
+    background-color: #AAA0A0;
+    background-image: url("/assets/images/workshop.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+
+.contact-page h2{
+   margin-top: 100px;
+}
+
+.contact-page input{
+    margin-top: 10px;
+    margin-bottom: 160px;
+    width: 5%;
+    background-color: #fafafa;
+    font-family: "Playfair display", sans-serif;
+    border: solid black 2px;
+    border-radius: 10px;
+   
+}
+
+.contact-details{
+   aspect-ratio: 16/9;
+   padding-top: 15px;
+   font-size: 20px;
+   background-color: #83677b;
+   margin-bottom: 10%;
+   position: unset;
+   height: 450px;
+   position:relative;
+   right: 3%;   
+}
+
+.contact-details h3{
+    padding-bottom: 15px;  
+}
+
+iframe{
+    margin-bottom: 20px;
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+
+#contact-text-area{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 130px;
+    height: 190px;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-form-text{
+   margin-left:20%;
+   background-color:rgba(76, 66, 66, 0.5);
+   width: 60%;
+   
+}
+
+#contact-form-email{
+    width:20%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#contact-submit{
+   width: 9%;
+}
+#contact-submit:hover{
+   background-color: #ADADAD;
+   color: #fafafa;
+}
+/*-------------------------- products.html*/
+#products-first-div{
+    background-color: #adadad;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+#products-second-div{
+    background-color: #83677b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#products-third-div{
+    background-color: #ADADAD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#products-fourth-div{
+    background-color: #83677b;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .products-text{
@@ -482,10 +494,6 @@ background-color: black;
     margin-bottom: 3px;
 }
 
-
-#gallery-section{
-    width: 100%;
-}
 
 @media screen and (max-width: 991px) {
     .contact-details{
@@ -579,8 +587,3 @@ background-color: black;
         opacity: 1;
      }
 }
-
-/*-------------------------- General*/
-/*-------------------------- Navigation*/
-/*-------------------------- Colors*/
-
