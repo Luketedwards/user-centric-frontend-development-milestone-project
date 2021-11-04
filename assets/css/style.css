@@ -346,7 +346,7 @@ img{
     font-weight: 500;
     color: #fafafa;
     background-color: #AAA0A0;
-    background-image: url("assets/images/workshop.jpg") ;
+    background-image: url("../images/workshop.jpg") ;
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
