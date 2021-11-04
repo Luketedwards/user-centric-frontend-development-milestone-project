@@ -81,3 +81,55 @@ Hiraeth Guitars is an imagined luthier of fine hand-made acoustic guitars. Based
 7. Balsamiq:
   * Balsamiq was used to generate my wireframes to guide my design process.
 
+8. Logic Pro X
+  * Logic Pro X was used to capture and edit the audio for the products page. I improvised an acoustic track, and then Equalised it 9 different times to represent the effect of the wood/body choice on the products page.
+
+# Testing User Stories from the User Experience (UX) Section
+
+ * First Time Visitor Goals
+
+ i. As a first time visitor to the website, I want to be able to immediately grasp to purpose of the website and the services on offer.
+
+a. The landing page immediately presents the user with a large and appealing image of a hand-built guitar. Over-lain across this hero image is some descriptive text detailing the nature of the website, and a "Products" button, to easily take the user to view further more detailed information about the business. 
+
+b. The purpose of the website is immediately apparent to the visitor, and presents them with an easy option to either view the product range, or scroll further down the page to learn more about the ethos of the business, and to read customer testimonials. 
+
+ii. I want to be able to intuitively and quickly navigate the website to the relevant pages.
+
+a. The website is designed with a sleek and intuitive navigation bar at the top of each page. This nav-bar makes it easy to traverse the website and is responsive to all screen sizes. On larger screens it extends horizontally across the top of the page and provides a drop-down menu with two options for the pricing PDF. On smaller screens it collapses into a sleek toggle button, which opens vertically down the right-hand side of the page when toggled.
+
+b. The footer is consistent across all pages, offering links icons to all the relevant social media platforms. It also offers an easy sign up option for prospective customers to join the newsletter.
+
+c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for a products. At the bottom of the page is both an imbedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
+
+.iii I want to develop a sense of trust and connection to the brand through testimonials and social proof. This includes a well displayed social media footprint. 
+
+a. On the landing page are clearly displayed customer testimonials, featuring both the names and photo's of happy clientele. 
+
+b. At the footer of each page are well displayed and interactive icon links, directing to all of the relevant social media accounts for the brand. 
+
+### Returning Visitor Goals
+
+ i. As a returning visitor I want to be able view visual updates of current and past guitar builds. 
+
+a. The website features a sleek and clean gallery section. This allows for an aesthetically pleasing place to show off the brands current and past builds to prospective customers and followers of the workshop.
+
+b. Each page offers a simple way to sign up to a newsletter, within which photos and updates could easily be shared about the brand.
+
+c. The footer contains clear links to all of the brands social media accounts, such as Facebook and Instagram. On these accounts visual updates from the brand could easily be shared and viewed.
+
+ii. I want to easily be able contact the business to discuss ordering a guitar.
+
+a. The contact page features an intuitive and detailed contact form through which customers can go in-depth with their questions or requirements.
+
+b. The contact page also features a "Contact Details" section, including a linked email address that will automatically generate an email draft to the business. 
+
+c. The website features two easy ways to view the current build options and price lists, both as an online viewable PDF and as a direct download link.
+
+D. The products page shows in depth all of the possible build options for the guitars. This includes images of the wood, a written description of their tonal qualities, and an audio demonstration. 
+
+### Frequent User Goals
+
+i. As a frequent user of the website, I want to be able to easily sign-up to a newsletter, to stay up-to-date on current news.
+
+a. The footer of each page on the website has a quick and easy news letter sign-up process located just below the social media links. 
