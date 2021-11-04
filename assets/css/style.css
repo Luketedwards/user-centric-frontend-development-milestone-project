@@ -481,18 +481,17 @@ iframe{
 }
 
 .guitar-photos{
-    
+    margin-bottom: 6px;
     aspect-ratio: 1/1;
     image-rendering: optimizeSpeed;
     border: solid black 2px;
 }
 
 .products-text audio{
-    border: solid black 2px;
-    border-radius: 40px;
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
 
 
 @media screen and (max-width: 991px) {
