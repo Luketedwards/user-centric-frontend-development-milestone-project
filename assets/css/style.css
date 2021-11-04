@@ -159,11 +159,6 @@ img{
 #current-link{
     text-decoration: underline #fafafa;
 }
-/*-------------------------- Colors*/
-
-
-
-
 
 /*-------------------------- index.html*/
 .hero-container {
@@ -306,15 +301,17 @@ img{
     }
     
     .quotes img{
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
         border: #fafafa solid 1px;
-        border-radius: 50px;
+        border-radius: 55px;
         float:center;
         margin-left: 30px;
+        margin-top: 20px;
     }
      .quotes p{
          padding: 10px 10px;
+         margin-left: 15px;
      }
 /*-------------------------- gallery.html*/
 #photos{
@@ -490,7 +487,6 @@ iframe{
 .guitar-photos{
     margin-bottom: 6px;
     aspect-ratio: 1/1;
-    image-rendering: optimizeSpeed;
     border: solid black 2px;
 }
 
@@ -498,8 +494,6 @@ iframe{
     margin-top: 3px;
     margin-bottom: 3px;
 }
-
-
 
 @media screen and (max-width: 991px) {
     .contact-details{
@@ -595,11 +589,10 @@ margin-right:70px
 
 /* Safari 6.1-10.0 (but not 10.1) */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
-@media {
 .footer-text p { 
 margin-right:70px
 }
-}}
+}
 
 @keyframes hero-zoom {
     from{
