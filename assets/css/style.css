@@ -89,11 +89,16 @@ img{
 
 .footer-text{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 15px;
     background-color: #64485c;
     color: #fafafa;
     position: relative;
     justify-content: space-around;
+}
+
+#footer-icons{
+    padding-top: 0;
+    position: static;
 }
 
 .footer-text p{
