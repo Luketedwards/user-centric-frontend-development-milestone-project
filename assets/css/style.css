@@ -93,6 +93,7 @@ img{
     background-color: #64485c;
     color: #fafafa;
     position: relative;
+    justify-content: space-around;
 }
 
 .footer-text p{
