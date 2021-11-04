@@ -98,11 +98,12 @@ img{
 .footer-text p{
     font-size: 30px;
     word-spacing: 22px;
-    
+    margin-right: 1%;
 }
 
 .footer-text a{
     text-decoration: none;
+    position: static;
 }
 
 .footer-form{
