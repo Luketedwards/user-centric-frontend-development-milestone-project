@@ -349,7 +349,7 @@ img{
     font-weight: 500;
     color: #fafafa;
     background-color: #AAA0A0;
-    background-image: url("../images/workshop.jpg") ;
+    background-image: url("../compressed-images/workshop-min.jpg") ;
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -453,6 +453,11 @@ iframe{
     text-align: center;
 }
 
+.products-text p{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
 .products-text h2{
     margin-top: 15px;
     margin-bottom: 45px;
@@ -466,8 +471,7 @@ iframe{
 .product-image{
     float: right;
     display: block;
-    padding: 0;
-    
+    padding: 0; 
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
@@ -484,7 +488,7 @@ iframe{
 
 .guitar-photos{
     margin-bottom: 6px;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.5/2;
     border: solid black 2px;
 }
 
@@ -504,6 +508,15 @@ iframe{
     .product-image{
         left: 15px;
         position: relative;
+    }
+
+    .products-text h3{
+        margin-top: 15px;
+    }
+
+    .products-text p{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 }
 
