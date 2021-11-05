@@ -305,7 +305,6 @@ img{
         height: 110px;
         border: #fafafa solid 1px;
         border-radius: 55px;
-        float:center;
         margin-left: 30px;
         margin-top: 20px;
     }
@@ -480,7 +479,6 @@ iframe{
     height: 300px;
     width: 300px;
     margin-bottom: 10px;
-    image-rendering: optimizeSpeed;
     border: solid black 2px;
 }
 
@@ -570,10 +568,10 @@ iframe{
     
 }
 
-/* Code taken from */
+/* Code taken from Browserstack(See README.MD*/
 /* Safari 11+ */
 @media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+{ @supports (-webkit-appearance:none) {
 .footer-text p{ 
 margin-right:70px; 
 }
@@ -581,14 +579,14 @@ margin-right:70px;
 
 /* Safari 10.1 */
 @media not all and (min-resolution:.001dpcm){ 
-@supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+@supports (-webkit-appearance:none) {
 .footer-text p{ 
 margin-right:70px 
 }
 }}
 
 /* Safari 6.1-10.0 (but not 10.1) */
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){ 
 .footer-text p { 
 margin-right:70px
 }

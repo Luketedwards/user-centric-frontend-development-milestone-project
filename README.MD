@@ -133,3 +133,122 @@ D. The products page shows in depth all of the possible build options for the gu
 i. As a frequent user of the website, I want to be able to easily sign-up to a newsletter, to stay up-to-date on current news.
 
 a. The footer of each page on the website has a quick and easy news letter sign-up process located just below the social media links. 
+
+## Further Testing
+
+* The website was tested on multiple web-browsers including Safari, Chrome, Firefox and Brave.
+
+* The website was viewed on multiple devices with varying screen sizes. These include iPhone 11's, iPad air, iPad pro, 16 inch Macbook pro and a 13 inch Acer laptop.
+
+* All links and pages were tested thoroughly across various browsers and screen sizes.
+
+* Family members trialled the website on their own devices to both give feedback and look for bugs. 
+
+## Known Bugs
+
+* On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. 
+
+* On the iPad air the hero image loads roughly 3/4 of the way when using Safari.
+
+## Notable Solved Bugs
+
+* When using the Safari browser on any device, the font awesome icons in the footer displayed further left than intended. On all other browsers they displayed where I meant them too.
+
+   a. I solved this by using Safari only media queries to push the icons over by 70px. The solution was my own idea, however I googled the code for the Safari media queries, and found it on [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css). 
+
+* When testing the website using Chrome Developer tools, white space appeared to the right of the webpage when the screen size was reduced enough. 
+
+a. I googled this issue and found a solution. [Stackoverflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend/5805134]) suggested that the code snippet 
+
+`html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}`
+
+would solve the issue. This worked to some extent, however the "overflow-x:hidden" caused content on the right-hand side of the website to not display on larger screens. To solve this I set the overflow to visible and wrote a media query that sets it back to hidden when the breakpoint is reached for the white space to appear.  
+
+`@media screen and (max-width:700px) {
+    html, body{
+        overflow-x:hidden;
+    }`
+
+
+# Credits
+
+## Code 
+
+* Bootstrap4: Bootrap Library was used throughout the intial setup of the website to help with both responsivness and layout.
+
+* Code from [Stackoverflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend/5805134) and [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css) was used to help solve the bugs listed in the bug section. I also used a snippet of code from a [Code Institute](https://www.codeinstitute.com) lesson to create the hero image animation, however I then modified this for my own website.
+
+## Content
+
+* All content was written by the developer.
+
+* My colour scheme was chosen from this blogpost by [Visme](https://visme.co/blog/website-color-schemes/).
+
+## Media
+
+* All audio was created by the developer.
+
+* Royalty free images were taken from [Unsplash](https://unsplash.com), [Freeimages](https://freeimages.com) and [Pixabay](https://pixabay.com), specifically from the following people:
+
+> Man playing guitar hero image - Photo by Hannah Gibbs on Unsplash 
+
+>Guitar rear image Photo by Maxime Favier on Unsplash 
+
+>Guitar front image Photo by Maxime Favier on Unsplash 
+
+>Guitar Hero Image Photo by Maxime Favier on Unsplash 
+
+>Guitar rear dark Photo by Maxime Favier on Unsplash 
+
+>Guitar rear dark on stand Photo by Maxime Favier on Unsplash 
+
+>Guitar front dark Photo by Maxime Favier on Unsplash 
+
+>Guitar side dark Photo by Maxime Favier on Unsplash 
+
+>Light guitar front by Maxime Favier on Unsplash 
+
+>Light guitar front 2 by Maxime Favier on Unsplash 
+
+>Light guitar rear side by Maxime Favier on Unsplash 
+
+>Timber stack Photo by Ales Krivec on Unsplash 
+
+>Ebony wood Photo by Mockup Photos on Unsplash 
+
+>Workshop Devin Berko on Unsplash 
+
+>Man photo Cibelly Roberta on Unsplash 
+
+>Woman 1 Brooke Cagle on Unsplash 
+
+>Woman 2 Omar Lopez on Unsplash 
+
+>Mahogany Image by jessicuak from Pixabay 
+
+>Maple Photo by stephan fleet from FreeImages
+
+>Spruce Photo by jean wimmerlin on Unsplash
+
+>Adirondack spruce Photo by Pawel Czerwinski on Unsplash
+
+>Cedar by FWstudio on Unsplash
+
+>OM guitar Photo by Gayatri Malhotra on Unsplash
+
+>Jumbo guitar Photo by Maxime Favier on Unsplash
+
+>Dreadnaught Photo by Daniel Lima on Unsplash
+
+## Acknowledgements
+
+* My mentor Rahul Lakhanpal for his support and invaluable advice throughout my project.
+
+* Code Institute for their excellent learning platform and student support.
