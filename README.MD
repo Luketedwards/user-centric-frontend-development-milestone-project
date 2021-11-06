@@ -136,6 +136,14 @@ a. The footer of each page on the website has a quick and easy news letter sign-
 
 ## Further Testing
 
+### Validator Results
+
+* All Html pages passed through the official Jigsaw validator with no errors.
+
+* The CSS stylesheet passed through the official W3C validator with no issues, aside from the Safari Media queries "Stroke-color" property not being recognised. I attempted to resolve this but changing it caused my Safari browser bug fix to no longer work.
+
+### Device Testing
+
 * The website was tested on multiple web-browsers including Safari, Chrome, Firefox and Brave.
 
 * The website was viewed on multiple devices with varying screen sizes. These include iPhone 11's, iPad air, iPad pro, 16 inch Macbook pro and a 13 inch Acer laptop.
