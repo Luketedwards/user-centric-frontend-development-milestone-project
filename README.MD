@@ -23,7 +23,8 @@ Hiraeth Guitars is an imagined luthier of fine hand-made acoustic guitars. Based
 
     1. As a frequent user of the website, I want to be able to easily sign-up to a newsletter, to stay up-to-date on current news.
 
-    ## Design
+## Design
+ ---
 
 * Colour Scheme
 
@@ -40,19 +41,21 @@ Hiraeth Guitars is an imagined luthier of fine hand-made acoustic guitars. Based
    2. I have chosen to use a large and striking image of a beautifully made guitar as the index.html page's hero image. This is to quickly capture the attention of prospective customers. 
 
 ## Wireframes
+---
+* Home Page - ![Home Page](assets/wireframes/home-page.png)
+* Gallery - ![Gallery](assets/wireframes/gallery.png)
+* Products Page - ![Products Page](assets/wireframes/products-page.png)
+* Contact Page - ![Contact Page](assets/wireframes/contact-page.png)
 
-* Home page wireframe -
-* Gallery page wireframe -
-* Products page wireframe -
-* Contact page wireframe -
 
 ## Features
+---
 * Responsive across all screen sizes
 * Interactive elements on all pages
 * External "Price List" as both a viewable link, and a download link.
 
 ## Technologies Used
-
+---
 ### Languages Used
 
 * HTML5
@@ -135,7 +138,7 @@ i. As a frequent user of the website, I want to be able to easily sign-up to a n
 a. The footer of each page on the website has a quick and easy news letter sign-up process located just below the social media links. 
 
 ## Further Testing
-
+---
 ### Validator Results
 
 * All Html pages passed through the official Jigsaw validator with no errors.
@@ -152,13 +155,13 @@ a. The footer of each page on the website has a quick and easy news letter sign-
 
 * Family members trialled the website on their own devices to both give feedback and look for bugs. 
 
-## Known Bugs
+### Known Bugs
 
 * On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. 
 
 * On the iPad air the hero image loads roughly 3/4 of the way when using Safari.
 
-## Notable Solved Bugs
+### Notable Solved Bugs
 
 * When using the Safari browser on any device, the font awesome icons in the footer displayed further left than intended. On all other browsers they displayed where I meant them too.
 
@@ -184,6 +187,54 @@ would solve the issue. This worked to some extent, however the "overflow-x:hidde
         overflow-x:hidden;
     }`
 
+## Deployment
+---
+
+ ### GitHub Pages
+
+ The project was deployed to GitHub Pages using the following steps...
+
+ 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+ 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+ 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+ 4. Under "Source", click the dropdown called "None" and select "Master Branch".
+ 5. The page will automatically refresh.
+ 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+ ### Forking the GitHub Repository
+
+ By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+ 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+ 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+ 3. You should now have a copy of the original repository in your GitHub account.
+
+ ### Making a Local Clone
+
+ 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+ 2. Under the repository name, click "Clone or download".
+ 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+ 4. Open Git Bash
+ 5. Change the current working directory to the location where you want the cloned directory to be made.
+ 6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+ ```
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+ ```
+
+ 7. Press Enter. Your local clone will be created.
+
+ ```
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+ > Cloning into `CI-Clone`...
+ > remote: Counting objects: 10, done.
+ > remote: Compressing objects: 100% (8/8), done.
+ > remove: Total 10 (delta 1), reused 10 (delta 1)
+ > Unpacking objects: 100% (10/10), done.
+ ```
+
+ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 # Credits
 
@@ -256,6 +307,7 @@ would solve the issue. This worked to some extent, however the "overflow-x:hidde
 >Dreadnaught Photo by Daniel Lima on Unsplash
 
 ## Acknowledgements
+---
 
 * My mentor Rahul Lakhanpal for his support and invaluable advice throughout my project.
 
