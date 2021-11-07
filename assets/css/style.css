@@ -135,7 +135,7 @@ img{
 .footer-form input{
     background-color: #fafafa;
     font-family: "Playfair display", sans-serif;
-    border: solid black 2px;
+    border: none;
     border-radius: 10px;
 }
 
@@ -354,6 +354,18 @@ img{
     animation-fill-mode: forwards;
 }
 
+.gallery-card{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.007440476190476164) 100%);
+    height: 150px;
+    z-index: 1000;
+    position: relative;
+}
+
+.gallery-text {
+    text-align: center center;
+}
+
 #gallery-section{
     width: 100%;
 }
@@ -429,23 +441,34 @@ iframe{
     width: 30%;
     margin-top: 20px;
     margin-bottom: 30px;
+    border: #fafafa 2px solid;
 }
 
 .contact-form-text{
    margin-left:20%;
    background-color:rgba(76, 66, 66, 0.5);
    width: 60%;
-   
+}
+
+.contact-form-text h2{
+    font-size: 50px;
+}
+
+.contact-form-text h3{
+    font-size: 40px;
 }
 
 #contact-form-email{
-    width:20%;
+    width:30%;
     margin-bottom: 10px;
     padding-left: 10px;
+    margin-top: 45px;
+    border: #fafafa 2px solid;
 }
 
 #contact-submit{
    width: 9%;
+   border: none;
 }
 #contact-submit:hover{
    background-color: #ADADAD;
@@ -488,8 +511,8 @@ iframe{
 
 .products-text h2{
     margin-top: 15px;
-    margin-bottom: 45px;
-    font-size: 40px;
+    margin-bottom: 25px;
+    font-size: 55px;
 }
 
 .products-text h3{
@@ -503,7 +526,7 @@ iframe{
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
-    border: solid black 2px;
+    border: solid #fafafa 2px;
     
 }
    
@@ -511,19 +534,31 @@ iframe{
     height: 300px;
     width: 300px;
     margin-bottom: 10px;
-    border: solid black 2px;
+    border: solid #fafafa 2px;
 }
 
 .guitar-photos{
     margin-bottom: 6px;
     aspect-ratio: 1.5/2;
-    border: solid black 2px;
+    border: solid #fafafa 2px;
 }
 
 .products-text audio{
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
+.products-hr{
+    margin-left: 46%;
+    background-color: #fafafa;
+    width: 8%;
+    height: 6px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+/*-------------------------- Media Queries*/
 
 @media screen and (max-width: 991px) {
     .contact-details{
