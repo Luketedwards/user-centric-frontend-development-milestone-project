@@ -95,6 +95,21 @@ img{
     justify-content: space-around;
 }
 
+#footer-text-copy{
+    background-color: #64485c;
+    color: #fafafa;
+}
+
+#footer-text-copy p{
+    position:relative;
+    width: 60%;
+    margin-left: 35px;
+    margin-right: 30vw;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
 #footer-icons{
     padding-top: 0;
     position: relative; left: 0px; right: auto;
@@ -189,7 +204,7 @@ img{
     font-family: "Playfair display", sans-serif;
     font-weight: 600;
     background-color:rgba(76, 66, 66, 0.5);
-    border: black solid 4px;
+    border: #fafafa solid 3px;
     border-radius: 6px;
     }
 
@@ -213,8 +228,19 @@ img{
     
     .about-us h2{
         font-weight: 700;
-        font-size: 40px;
-        padding-bottom: 10px;
+        font-size: 55px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    #about-us-hr{
+        margin-left: 43%;
+        background-color: #fafafa;
+        width: 15%;
+        height: 6px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-top: 15px;
     }
     
     .quotes-header{
