@@ -331,12 +331,12 @@ img{
         height: 110px;
         border: #fafafa solid 1px;
         border-radius: 55px;
-        margin-left: 30px;
-        margin-top: 20px;
+        margin-left: 20%;
+        
     }
      .quotes p{
          padding: 10px 10px;
-         margin-left: 15px;
+         margin-left: 15%;
      }
 /*-------------------------- gallery.html*/
 #photos{
@@ -359,24 +359,18 @@ img{
 
 #gallery-container-1{
     background-image: url("../compressed-images/Guitar-side-dark.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    
 }
 
 #gallery-container-2{
     background-image: url("../compressed-images/light-guitar-front-2.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    
     
 }
 
 #gallery-container-3{
     background-image: url("../compressed-images/Light-guitar-front-large.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+   
     
 }
 
@@ -430,9 +424,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s ease-in-out;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
 }
 
 .gallery-container img{
