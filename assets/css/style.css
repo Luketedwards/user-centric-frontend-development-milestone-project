@@ -340,14 +340,16 @@ img{
      }
 /*-------------------------- gallery.html*/
 #photos{
-    clear: both;
+    background-size: cover;
     width: 100%;
     padding:0;
     margin: 0;
+    bottom: 0;
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-    background-color:#ADADAD;
+    background-color:#64485c;
+    vertical-align: bottom;
     
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -359,71 +361,121 @@ img{
 
 #gallery-container-1{
     background-image: url("../compressed-images/Guitar-side-dark.jpeg");
-    
+    height: 38vmax;
+    object-fit: fill;
 }
 
 #gallery-container-2{
     background-image: url("../compressed-images/light-guitar-front-2.jpeg");
-    
-    
+    height: 60vmax;   
+    object-fit: fill;
 }
 
 #gallery-container-3{
     background-image: url("../compressed-images/Light-guitar-front-large.jpeg");
-   
-    
+    height: 60vmax;
+    object-fit: fill;
 }
 
 #gallery-container-4{
     background-image: url("../compressed-images/Light-guitar-rear-side.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 40vmax;
+    object-fit: fill;
 }
 
 #gallery-container-5{
     background-image: url("../compressed-images/Guitar-front-dark.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 42vmax;
+    object-fit: fill;
+    
 }
 
 #gallery-container-6{
     background-image: url("../compressed-images/Guitar-rear-dark.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 55vmax;
+    object-fit: fill;
 }
 
 #gallery-container-7{
     background-image: url("../compressed-images/Guitar-rear-dark-on-stand.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 65vmax;
+    object-fit: fill;
 }
 
 #gallery-container-8{
     background-image: url("../compressed-images/Guitar-rear-image.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 60vmax;
+    object-fit: fill;
 }
 
 #gallery-container-9{
     background-image: url("../compressed-images/om-guitar.jpeg");
-    height: auto;
-    width: auto;
-    background-size: cover;
+    height: 60vmax;
+    object-fit: fill;
+}
+
+#responsive-image-1{
+    aspect-ratio:initial;
+    height: 38vmax;
+    object-fit: fill;
+}
+
+#responsive-image-2{
+    height: 60vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-3{
+    height: 60vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-4{
+    height: 40vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-5{
+    height: 42vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-6{
+    height: 55vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-7{
+    height: 65vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-8{
+    height: 60vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
+}
+
+#responsive-image-9{
+    height: 60vmax;
+    aspect-ratio:initial;
+    object-fit: fill;
 }
 
 .gallery-container{
     position: relative;
-    display: block;
+    display: flex;
     width: 100%;
     height:fit-content;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: all 0.5s ease-in-out;
+    vertical-align: bottom;
     
 }
 
@@ -432,15 +484,18 @@ img{
     visibility: hidden;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .gallery-card{
     opacity: 0;
     background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     border: 0;
     z-index: 1100;
+    display: flex;
     
     
 }
@@ -455,10 +510,11 @@ img{
     background: rgba(0,0,0,0.8);
     color: #fff;
     opacity: 1;
-    transition: all 0.5s ease-in-out;
+    transition: all 0s ease-in-out;
     transition-delay: 0s;
     box-sizing: border-box;
     padding: 0;
+    bottom: 0;
     margin: 0;
    }
 
@@ -476,6 +532,7 @@ img{
 
 #gallery-section{
     width: 100%;
+    height: 100%;
 }
 
 /*-------------------------- contact.html*/
@@ -669,6 +726,8 @@ iframe{
 
 /*-------------------------- Media Queries*/
 
+
+
 @media screen and (max-width: 991px) {
     .contact-details{
         width:100%;
@@ -713,7 +772,6 @@ iframe{
 @media screen and (max-width:700px) {
     #photos{
         column-count: 1;
-        
     }
     html, body{
         overflow-x:hidden;
@@ -757,6 +815,10 @@ iframe{
         top: 35%;
         left: 15%;
         
+    }
+
+    #photos{
+        background-color: #64485c;
     }
 }
 
