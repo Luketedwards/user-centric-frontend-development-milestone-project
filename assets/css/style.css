@@ -106,7 +106,7 @@ img{
     margin-left: 35px;
     margin-right: 30vw;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -331,12 +331,12 @@ img{
         height: 110px;
         border: #fafafa solid 1px;
         border-radius: 55px;
-        margin-left: 20%;
+        margin-left: 28%;
         
     }
      .quotes p{
          padding: 10px 10px;
-         margin-left: 15%;
+         margin-left: 26%;
      }
 /*-------------------------- gallery.html*/
 #photos{
@@ -365,10 +365,22 @@ img{
     object-fit: fill;
 }
 
+#gallery-container-1 p{
+    text-align: center;
+    left: 21%;
+    top: 50%;
+}
+
 #gallery-container-2{
     background-image: url("../compressed-images/light-guitar-front-2.jpeg");
     height: 60vmax;   
     object-fit: fill;
+}
+
+#gallery-container-2 p{
+    text-align: center;
+    left: 13%;
+    top: 50%;
 }
 
 #gallery-container-3{
@@ -377,17 +389,34 @@ img{
     object-fit: fill;
 }
 
+#gallery-container-3 p{
+    text-align: center;
+    left: 21%;
+    top: 50%;
+}
+
 #gallery-container-4{
     background-image: url("../compressed-images/Light-guitar-rear-side.jpeg");
     height: 40vmax;
     object-fit: fill;
 }
 
+#gallery-container-4 p{
+    text-align: center;
+    left: 24%;
+    top: 50%;
+}
+
 #gallery-container-5{
     background-image: url("../compressed-images/Guitar-front-dark.jpeg");
     height: 42vmax;
     object-fit: fill;
-    
+}
+
+#gallery-container-5 p{
+    text-align: center;
+    left: 19%;
+    top: 50%;
 }
 
 #gallery-container-6{
@@ -396,10 +425,22 @@ img{
     object-fit: fill;
 }
 
+#gallery-container-6 p{
+    text-align: center;
+    left: 18%;
+    top: 50%;
+}
+
 #gallery-container-7{
     background-image: url("../compressed-images/Guitar-rear-dark-on-stand.jpeg");
     height: 65vmax;
     object-fit: fill;
+}
+
+#gallery-container-7 p{
+    text-align: center;
+    left: 16%;
+    top: 50%;
 }
 
 #gallery-container-8{
@@ -408,10 +449,22 @@ img{
     object-fit: fill;
 }
 
+#gallery-container-8 p{
+    text-align: center;
+    left: 18%;
+    top: 50%;
+}
+
 #gallery-container-9{
     background-image: url("../compressed-images/om-guitar.jpeg");
     height: 60vmax;
     object-fit: fill;
+}
+
+#gallery-container-9 p{
+    text-align: center;
+    left: 22%;
+    top: 55%;
 }
 
 #responsive-image-1{
@@ -516,6 +569,7 @@ img{
     padding: 0;
     bottom: 0;
     margin: 0;
+    text-align: center;
    }
 
 .gallery-card:hover p{
