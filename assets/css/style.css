@@ -98,16 +98,14 @@ img{
 #footer-text-copy{
     background-color: #64485c;
     color: #fafafa;
+    text-align: center;
 }
 
 #footer-text-copy p{
     position:relative;
-    width: 60%;
-    margin-left: 35px;
-    margin-right: 30vw;
+    margin-top: 15px;
     margin-bottom: 30px;
     font-size: 15px;
-
 }
 
 #footer-icons{
@@ -146,11 +144,15 @@ img{
 
 .nav-item{
     font-size: 20px;
-    color: #fafafa;
+    color: rgba(255,255,255,.5);
+}
+
+.nav-link{
+    color: rgba(255,255,255,.5)!important;
 }
 
 .nav-link:hover{
-    text-decoration: underline #fafafa;
+    color: #fafafa!important;
 }
 
 .dropdown-list{
@@ -172,7 +174,7 @@ img{
 }
 
 #current-link{
-    text-decoration: underline #fafafa;
+    color: #fafafa!important;
 }
 
 /*-------------------------- index.html*/
@@ -220,6 +222,7 @@ img{
     }
     .about-us img{
        padding-top: 10px;
+       border-radius: 5px;
     }
     
     .about-us p{
@@ -638,7 +641,8 @@ img{
    position: unset;
    height: 450px;
    position:relative;
-   right: 3%;   
+   right: 3%;  
+   border-radius: 5px; 
 }
 
 .contact-details h3{
@@ -651,6 +655,8 @@ iframe{
     aspect-ratio: 16/9;
     border: 0;
     height: 450px;
+    border-radius: 5px;
+    border: none!important;
 }
 
 #contact-text-area{
@@ -668,6 +674,7 @@ iframe{
    margin-left:20%;
    background-color:rgba(76, 66, 66, 0.5);
    width: 60%;
+   border-radius: 5px;
 }
 
 .contact-form-text h2{
@@ -746,21 +753,20 @@ iframe{
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 30px;
-    border: solid #fafafa 2px;
-    
+    border-radius: 5px;
 }
    
 .product-photos{
     height: 300px;
     width: 300px;
     margin-bottom: 10px;
-    border: solid #fafafa 2px;
+    border-radius: 5px;
 }
 
 .guitar-photos{
     margin-bottom: 6px;
     aspect-ratio: 1.5/2;
-    border: solid #fafafa 2px;
+    border-radius: 5px;
 }
 
 .products-text audio{
