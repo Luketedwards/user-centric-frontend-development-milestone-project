@@ -128,6 +128,19 @@ The gallery section is layed out in a masonry style. To keep this clean unclutte
 The products page is populated by both visual representations of the wood options, a written description of each wood and its merits, and an audio feature demonstrating the tonal impacts of each choice.
 
 ![Products Audio]()
+
+### Contact Page Form and Map
+
+The contact page is fitted with both a contact form, traditional contact details featuring a hyperlinked email to automatically generate an email, and an embedded iframe map to allow customers to visit the workshop for the tour.
+
+![Contact Page]()
+
+### Downloadable PDF Price-list
+
+The pricing link offers users the option to either view or download a comprehensive PDF price-list detailing the cost of each model and option.
+
+![Price-list]()
+
 ## Technologies Used
 ---
 ### Languages Used
@@ -175,7 +188,7 @@ ii. I want to be able to intuitively and quickly navigate the website to the rel
 
 a. The website is designed with a sleek and intuitive navigation bar at the top of each page. This nav-bar makes it easy to traverse the website and is responsive to all screen sizes. On larger screens it extends horizontally across the top of the page and provides a drop-down menu with two options for the pricing PDF. On smaller screens it collapses into a sleek toggle button, which opens vertically down the right-hand side of the page when toggled.
 
-b. The footer is consistent across all pages, offering links icons to all the relevant social media platforms. It also offers an easy sign up option for prospective customers to join the newsletter.
+b. The footer is consistent across all pages, offering links icons to all the relevant social media platforms.
 
 c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for a products. At the bottom of the page is both an imbedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
 
@@ -189,11 +202,9 @@ b. At the footer of each page are well displayed and interactive icon links, dir
 
  i. As a returning visitor I want to be able view visual updates of current and past guitar builds. 
 
-a. The website features a sleek and clean gallery section. This allows for an aesthetically pleasing place to show off the brands current and past builds to prospective customers and followers of the workshop.
+a. The website features a sleek and clean gallery section. This allows for an aesthetically pleasing place to show off the brands current and past builds to prospective customers and followers of the workshop. Further information can also be accessed by hovering the cursor over each image.
 
-b. Each page offers a simple way to sign up to a newsletter, within which photos and updates could easily be shared about the brand.
-
-c. The footer contains clear links to all of the brands social media accounts, such as Facebook and Instagram. On these accounts visual updates from the brand could easily be shared and viewed.
+b. The footer contains clear links to all of the brands social media accounts, such as Facebook and Instagram. On these accounts visual updates from the brand could easily be shared and viewed.
 
 ii. I want to easily be able contact the business to discuss ordering a guitar.
 
@@ -207,19 +218,19 @@ D. The products page shows in depth all of the possible build options for the gu
 
 ### Frequent User Goals
 
-i. As a frequent user of the website, I want to be able to easily sign-up to a newsletter, to stay up-to-date on current news.
-
-a. The footer of each page on the website has a quick and easy news letter sign-up process located just below the social media links. 
 
 ## Further Testing
 ---
 ### Validator Results
 
-* All Html pages passed through the official Jigsaw validator with no errors.
+* All Html pages passed through the official [W3C Validator](https://validator.w3.org) validator with no errors. Results can be found here:
+[Landing Page]()|[Gallery]()|[Products Page]()|[Contact Page]()
 
-* The CSS stylesheet passed through the official W3C validator with no issues, aside from the Safari Media queries "Stroke-color" property not being recognised. I attempted to resolve this but changing it caused my Safari browser bug fix to no longer work.
+* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with no issues, aside from the Safari Media queries "Stroke-color" property not being recognised. I attempted to resolve this but changing it caused my Safari browser bug fix to no longer work.
 
-### Device Testing
+CSS validation results can be found [Here]()
+
+### Manual Testing
 
 * The website was tested on multiple web-browsers including Safari, Chrome, Firefox and Brave.
 
@@ -234,6 +245,8 @@ a. The footer of each page on the website has a quick and easy news letter sign-
 * On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. 
 
 * On the iPad air the hero image loads roughly 3/4 of the way when using Safari.
+
+* On certain medium screensizes some of the gallery images begin to overlap eachother. 
 
 ### Notable Solved Bugs
 
@@ -261,10 +274,15 @@ would solve the issue. This worked to some extent, however the "overflow-x:hidde
         overflow-x:hidden;
     }`
 
+* Initially the hover cards in the gallery caused the image to jitter and change size slightly when hovered. I solved this by setting the display property of the gallery to flex.  
+
+### Accessibility Tests
+---
+
 ## Deployment
 ---
 
- ### GitHub Pages
+### GitHub Pages
 
  The project was deployed to GitHub Pages using the following steps...
 
