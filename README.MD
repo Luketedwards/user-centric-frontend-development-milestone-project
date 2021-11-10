@@ -1,59 +1,133 @@
 # Hiraeth Guitars
 
 Hiraeth Guitars is an imagined luthier of fine hand-made acoustic guitars. Based in Wales; Hiraeth is an almost untranslatable Welsh word meaning "a mixture of longing, yearning, nostalgia, wistfulness or an earnest desire for the Wales of the past."
+The Goals of the project are:
+ * To showcase the products on offer
+ * Inform the user of the options available when ordering a product
+ * Allow the user an easy process to place and order
+ * Develop a sense of trust about the brand
 
+ ![Website Mockup](assets/compressed-images/hiraeth-guitars-mockup.png)
+
+ The deployed site can be viewed [here](https://luketedwards.github.io/user-centric-frontend-development-milestone-project/index.html)
 ## User Experience (UX)
+---
 
 * ### User stories.
-   * First Time Visitor Goals
+   * As a first time user I want to:
 
-    1. As a first time visitor to the website, I want to be able to immediately grasp to purpose of the website and the services on offer.
+    1. Be able to immediately grasp to purpose of the website and the services on offer.
 
-    2. I want to be able to intuitively and quickly navigate the website to the relevant pages.
+    2. Intuitively and quickly navigate the website to the relevant pages.
 
-   3. I want to develop a sense of trust and connection to the brand through testimonials and social proof. This includes a well displayed social media footprint. 
+   3. Develop a sense of trust and connection to the brand through testimonials and social proof. This includes a well displayed social media footprint. 
      
-* Returning Visitor Goals
+* As a returning visitor I want to:
 
-    1. As a returning visitor I want to be able view visual updates of current and past guitar builds. 
+    1. Be able view visual updates of current and past guitar builds. 
 
-    2. I want to easily be able contact the business to discuss ordering a guitar.
+    2. Be able contact the business to discuss my options when ordering a guitar.
 
-  * Frequent User Goals
+    3. View an up-to-date price list for all models and options of guitars on offer.
 
-    1. As a frequent user of the website, I want to be able to easily sign-up to a newsletter, to stay up-to-date on current news.
+* As a site owner I want to:
 
-## Design
- ---
+   1. Easily convey my services and available options in a clear manner, so as to avoid unnecessary questions from prospective customers.
 
-* Colour Scheme
-
-  1. The main colours used in development of the website are a darker and lighter shade of purple, a light grey, and an off white.
-
-* Typography
-
-   1. The main fonts used are "Playfair Display" for all the body content, and "Satisfy" for the logo. Both are backed-up by "Sans-Serif" should they fail to load from Google fonts.
-
-• Imagery
-
-   1. The imagery used throughout the site is intended to showcase the works of the luthier; with many examples of previous work, images of both the workshop, and wood harvesting process, and examples of possible wood and body style options for the instruments.
-
-   2. I have chosen to use a large and striking image of a beautifully made guitar as the index.html page's hero image. This is to quickly capture the attention of prospective customers. 
-
-## Wireframes
+## 1.Strategy
 ---
-* Home Page - ![Home Page](assets/wireframes/home-page.png)
-* Gallery - ![Gallery](assets/wireframes/gallery.png)
-* Products Page - ![Products Page](assets/wireframes/products-page.png)
-* Contact Page - ![Contact Page](assets/wireframes/contact-page.png)
+* Project Purpose
+   * To showcase and promote a range of fine handmade guitars.
+   * To clearly communicate the range of wood options and body styles on offer, and educate users on their tonal impact on the guitar build.
+   * To create a space to display past and current work of the luthier, alongside information about the products.
+   * To provide a simple way to contact and commision a build, and view an up-to-date resource of pricing across all options and body styles. 
 
+## 2.Scope
+---
+* I wanted a simple and intuitive user experience.
+* I wanted all content on the site to be clearly displayed in a concise manner.
+* I wanted a downloadable resource to inform users of current prices when accounting for all available options.
+* A responsive site that functions well across a range of devices and screensizes.
+## 3.Structure
+---
+* The site features a clear and intuitive navigation bar and footer, that responds to different screen sizes. 
+* The layout is clear and intuitive to ensure users can quickly traverse the site and find what they are looking for.
+* The index.html page succinctly communicates the idea and purpose of the website, to immediately inform users of what the site is about.
+* The Gallery cleanly displays images of past builds and products, whilst offering a clean hover card displaying further information about each image. This prevents needless visual clutter from written descriptions.
+* The products page clearly displays all available options for both wood and body style. This is backed up by both a written description and audio representation of the effect each option has on the tone of the instrument.
+* The contact page allows an intuitive and simple way to get in touch with the luthier through a contact form. There is also more traditional contact details below to either call the business, or generate an email through a hyperlink. A google map is also embedded to allow users to drop in on a tour of the workshop.
+* The footer cleanly displays links to all the brands social media pages, to help develop a sense of social trust.
+
+## 4.Skeleton
+---
+### Wireframes
+Wire frames were generated using Balsamiq, and can be viewed below.
+
+* [Home Page](assets/wireframes/home-page.png)
+* [Gallery](assets/wireframes/gallery.png)
+* [Products Page](assets/wireframes/products-page.png)
+* [Contact Page](assets/wireframes/contact-page.png)
+
+
+## 5.Surface
+---
+
+### Colour Scheme
+
+The main colours used in development of the website are a darker and lighter shade of purple, a light grey, and an off white. I chose these as I felt they made the site inviting and imbued a sense of warmth.
+
+![Color Scheme](assets/compressed-images/color-scheme-7.jpg)
+
+### Typography
+
+The two fonts used are "Playfair Display" for all the body content, and "Satisfy" for the logo. Both are backed-up by "Sans-Serif" should they fail to load from [Google fonts](https://fonts.google.com).
+
+![Google fonts](assets/compressed-images/google-fonts.png)
+
+### Imagery
+
+The imagery used throughout the site is intended to showcase the works of the luthier; with many examples of previous work, images of both the workshop, and wood harvesting process, and examples of possible wood and body style options for the instruments.
+
+I have chosen to use a large and striking image of a beautifully made guitar as the index.html page's hero image. This is to quickly capture the attention of prospective customers. 
 
 ## Features
 ---
-* Responsive across all screen sizes
-* Interactive elements on all pages
-* External "Price List" as both a viewable link, and a download link.
+### Landing Page Image
 
+A striking a beatiful image was used for the landing page. This is animated to catch the users attention.
+Overlayed across the image is some hero text to instantly convey the nature of the site to users, and a products button to take the user to view the range of guitars on offer.
+![Landing Page]()
+
+### Navigation bar
+
+Consistent throughout the website is a sleek and intuitive navigation bar. The main features of the navbar are:
+
+* Logo text that links to the home page.
+* Active link colours to indicated the current page the user is on.
+* Hover colours for the links. 
+* A drop down menu for the pricing link that offers a PDF for the pricing as both a viewable link and a download link.
+* The navbar collapses into a toggle drop-down button on smaller screensizes.
+
+![Navigation Bar]()
+![Navigation Bar Collapsed]()
+
+### Footer Displaying Social Links
+
+Each page has a consistent footer which displays link icons for all of the brands social media pages. The copyright is also displayed here.
+
+![Footer]()
+
+### Gallery Hover Cards
+
+The gallery section is layed out in a masonry style. To keep this clean uncluttered view, information about each image is stored in a hover card, viewable when either hovering or clicking on the image.
+
+![Gallery Hover Card]()
+
+### Products Page Audio
+
+The products page is populated by both visual representations of the wood options, a written description of each wood and its merits, and an audio feature demonstrating the tonal impacts of each choice.
+
+![Products Audio]()
 ## Technologies Used
 ---
 ### Languages Used
