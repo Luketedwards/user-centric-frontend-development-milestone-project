@@ -226,18 +226,22 @@ D. The products page shows in depth all of the possible build options for the gu
 ---
 ### Validator Results
 
-* All Html pages passed through the official [W3C Validator](https://validator.w3.org) validator with no errors. Results can be found here:
-[Landing Page]()|[Gallery]()|[Products Page]()|[Contact Page]()
+* All Html pages passed through the official [W3C Validator](https://validator.w3.org) validator with no errors. On the gallery page a warning was displayed due a lack of heading elements. This is intentional as the gallery is a masonry image display page and needs no heading. 
+Results can be found here:
+[Landing Page](assets/compressed-images/validator-results/index-min.png)|[Gallery](assets/compressed-images/validator-results/gallery-min.png)|[Products Page](assets/compressed-images/validator-results/products-min.png)|[Contact Page](assets/compressed-images/validator-results/contact-min.png)
 
-* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with no issues, aside from the Safari Media queries "Stroke-color" property not being recognised. I attempted to resolve this but changing it caused my Safari browser bug fix to no longer work.
+* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with three issues.
+   1. The Safari Media queries "Stroke-color" property of "transparent" was not recognised. I attempted to resolve this but changing it but it caused my Safari browser bug fix to no longer work. This accounts for two of the errors.
 
-CSS validation results can be found [Here]()
+   2. A parse error was recorded. From what I can tell from research this appears to be some strange invisible character that I cannot delete from my CSS file. I have tried many times to solve this issue but the parse error always displays. I think this may be linked to the unrecognised "stroke-color" property as it happens just below that rule. 
+
+CSS validation results can be found [Here](assets/compressed-images/validator-results/css-min.png)
 
 ### Manual Testing
 
 * The website was tested on multiple web-browsers including Safari, Chrome, Firefox and Brave.
 
-* The website was viewed on multiple devices with varying screen sizes. These include iPhone 11's, iPad air, iPad pro, 16 inch Macbook pro and a 13 inch Acer laptop.
+* The website was viewed on multiple devices with varying screen sizes. These include multiple iPhone 11's, an iPad air, an iPad pro, a 16 inch Macbook pro and a 13 inch Acer laptop.
 
 * All links and pages were tested thoroughly across various browsers and screen sizes.
 
@@ -245,11 +249,11 @@ CSS validation results can be found [Here]()
 
 ### Known Bugs
 
-* On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. 
+* On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. This also does not occur every time. 
 
-* On the iPad air the hero image loads roughly 3/4 of the way when using Safari.
+* On the iPad air the hero image loads roughly 3/4 of the way when using Safari. Again, this only happens some of the time.
 
-* On certain medium screensizes some of the gallery images begin to overlap eachother. 
+* On certain medium screen-sizes some of the gallery images begin to overlap eachother. 
 
 ### Notable Solved Bugs
 
