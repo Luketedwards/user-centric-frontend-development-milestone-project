@@ -14,7 +14,7 @@ The Goals of the project are:
 ---
 
 * ### User stories.
-   * As a first time user I want to:
+* As a first time user I want to:
 
     1. Be able to immediately grasp to purpose of the website and the services on offer.
 
@@ -93,13 +93,13 @@ I have chosen to use a large and striking image of a beautifully made guitar as 
 ## Features
 ---
 ### Landing Page Image
-
-A striking a beatiful image was used for the landing page. This is animated to catch the users attention.
+---
+A striking image of a beautiful guitar was used for the landing page. This is also animated to catch the users attention.
 Overlayed across the image is some hero text to instantly convey the nature of the site to users, and a products button to take the user to view the range of guitars on offer.
-![Landing Page]()
+![Landing Page](assets/compressed-images/hero-min.png)
 
 ### Navigation bar
-
+---
 Consistent throughout the website is a sleek and intuitive navigation bar. The main features of the navbar are:
 
 * Logo text that links to the home page.
@@ -108,38 +108,41 @@ Consistent throughout the website is a sleek and intuitive navigation bar. The m
 * A drop down menu for the pricing link that offers a PDF for the pricing as both a viewable link and a download link.
 * The navbar collapses into a toggle drop-down button on smaller screensizes.
 
-![Navigation Bar]()
-![Navigation Bar Collapsed]()
+![Navigation Bar](assets/compressed-images/navbar-min.png)
+
+* The navbar also collapses into a toggle drop-down button on smaller screensizes.
+
+![Navigation Bar Collapsed](assets/compressed-images/nav-toggle-min.png)
 
 ### Footer Displaying Social Links
-
+---
 Each page has a consistent footer which displays link icons for all of the brands social media pages. The copyright is also displayed here.
 
-![Footer]()
+![Footer](assets/compressed-images/footer-min.png)
 
 ### Gallery Hover Cards
-
+---
 The gallery section is layed out in a masonry style. To keep this clean uncluttered view, information about each image is stored in a hover card, viewable when either hovering or clicking on the image.
 
-![Gallery Hover Card]()
+![Gallery Hover Card](assets/compressed-images/hover-card-min.png)
 
 ### Products Page Audio
-
+---
 The products page is populated by both visual representations of the wood options, a written description of each wood and its merits, and an audio feature demonstrating the tonal impacts of each choice.
 
-![Products Audio]()
+![Products Audio](assets/compressed-images/products-min.png)
 
 ### Contact Page Form and Map
-
+---
 The contact page is fitted with both a contact form, traditional contact details featuring a hyperlinked email to automatically generate an email, and an embedded iframe map to allow customers to visit the workshop for the tour.
 
-![Contact Page]()
+![Contact Page](assets/compressed-images/contact-min.png)
 
 ### Downloadable PDF Price-list
-
+---
 The pricing link offers users the option to either view or download a comprehensive PDF price-list detailing the cost of each model and option.
 
-![Price-list]()
+![Price-list](assets/compressed-images/price-list-min.png)
 
 ## Technologies Used
 ---
