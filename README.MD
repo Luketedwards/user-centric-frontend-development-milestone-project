@@ -1,11 +1,9 @@
 # Hiraeth Guitars
 
 Hiraeth Guitars is an imagined luthier of fine hand-made acoustic guitars. Based in Wales; Hiraeth is an almost untranslatable Welsh word meaning "a mixture of longing, yearning, nostalgia, wistfulness or an earnest desire for the Wales of the past."
-The Goals of the project are:
- * To showcase the products on offer
- * Inform the user of the options available when ordering a product
- * Allow the user an easy process to place and order
- * Develop a sense of trust about the brand
+
+* *A note about the repository name*: I chose this repository name hastily before I realised that it should have a name meaningful to the project. I chose the repository name to make marking this as my first milestone project as unambiguous as possible. I spoke to my mentor about this mistake and he suggested that it would be tricky to rename the repository and that I should just note my mistake in the README file. 
+If I were to rename it, it would be called "Hiraeth-Guitars" for obvious reasons. I wont make the same mistake on my next projects.
 
  ![Website Mockup](assets/compressed-images/hiraeth-guitars-mockup.png)
 
@@ -137,6 +135,7 @@ The products page is populated by both visual representations of the wood option
 The contact page is fitted with both a contact form, traditional contact details featuring a hyperlinked email to automatically generate an email, and an embedded iframe map to allow customers to visit the workshop for the tour.
 
 ![Contact Page](assets/compressed-images/contact-min.png)
+![Contact Map](assets/compressed-images/map-min.png)
 
 ### Downloadable PDF Price-list
 ---
@@ -219,7 +218,7 @@ c. The website features two easy ways to view the current build options and pric
 
 D. The products page shows in depth all of the possible build options for the guitars. This includes images of the wood, a written description of their tonal qualities, and an audio demonstration. 
 
-### Frequent User Goals
+### Site Owner Goals
 
 
 ## Further Testing
@@ -411,3 +410,5 @@ would solve the issue. This worked to some extent, however the "overflow-x:hidde
 * My mentor Rahul Lakhanpal for his support and invaluable advice throughout my project.
 
 * Code Institute for their excellent learning platform and student support.
+
+* [W3C Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for being valuable resources when I encountered problems in my code. 
