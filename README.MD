@@ -53,7 +53,7 @@ If I were to rename it, it would be called "Hiraeth-Guitars" for obvious reasons
 * The index.html page succinctly communicates the idea and purpose of the website, to immediately inform users of what the site is about.
 * The Gallery cleanly displays images of past builds and products, whilst offering a clean hover card displaying further information about each image. This prevents needless visual clutter from written descriptions.
 * The products page clearly displays all available options for both wood and body style. This is backed up by both a written description and audio representation of the effect each option has on the tone of the instrument.
-* The contact page allows an intuitive and simple way to get in touch with the luthier through a contact form. There is also more traditional contact details below to either call the business, or generate an email through a hyperlink. A google map is also embedded to allow users to drop in on a tour of the workshop.
+* The contact page allows an intuitive and simple way to get in touch with the luthier through a contact form. There is also a more traditional contact details section below to either call the business, or generate an email through a hyperlink. A google map is also embedded to allow users to drop in on a tour of the workshop.
 * The footer cleanly displays links to all the brands social media pages, to help develop a sense of social trust.
 
 ## 4.Skeleton
@@ -120,7 +120,7 @@ Each page has a consistent footer which displays link icons for all of the brand
 
 ### Gallery Hover Cards
 ---
-The gallery section is layed out in a masonry style. To keep this clean uncluttered view, information about each image is stored in a hover card, viewable when either hovering or clicking on the image.
+The gallery section is layed out in a masonry style. To keep this clean uncluttered view, information about each image is stored in a hover card, viewable when either hovering over the image with a cursor or clicking on the image on mobile devices.
 
 ![Gallery Hover Card](assets/compressed-images/hover-card-min.png)
 
@@ -152,11 +152,11 @@ The pricing link offers users the option to either view or download a comprehens
 
 ### Framework & Libraries Used
 
-* Bootstrap 4.4.1:
-  * Bootstrap was utilised to quickly build a responsive framework for the website, before being overwritten to add my own style.
+1. Bootstrap 4.4.1:
+  * Bootstrap was utilised to quickly build a responsive framework for the website, before being overwritten with a custom CSS stylesheet to add my own style.
 
 2. Google Fonts:
-   * Google Fonts was used to import the "Satisfy" and "Playfair Display" fonts into my style sheet. I also used Google Fonts to download these fonts to my machine for creating the "Price List" PDF in Affinity Photo.
+   * Google Fonts was used to import the "Satisfy" and "Playfair Display" fonts into my style sheet. I also used Google Fonts to download these fonts to my machine for creating the "Price List" PDF and favicon image in Affinity Photo.
 
 3. Font Awesome:
    * Font Awesome was used to provide icons to social media on all of the webpages in my project.
@@ -168,19 +168,22 @@ The pricing link offers users the option to either view or download a comprehens
    * GitHub was used to store all of my project code after being pushed from Git.
 
 6. Affinity Photo/Publisher:
-  * Affinity software was used to create my "Price List" PDF. 
+  * Affinity software was used to create my "Price List" PDF and my favicon image. 
 
 7. Balsamiq:
   * Balsamiq was used to generate my wireframes to guide my design process.
 
 8. Logic Pro X
-  * Logic Pro X was used to capture and edit the audio for the products page. I improvised an acoustic track, and then Equalised it 9 different times to represent the effect of the wood/body choice on the products page.
+  * Logic Pro X was used to capture and edit the audio for the products page. I improvised an acoustic track, and then equalised it 9 different times to represent the effect of the wood/body choice on the products page.
+
+9. [Real Favicon Generator](https://realfavicongenerator.net)
+   * Real Favicon Generator was used to turn the image I created into a favicon.ico file.
 
 # Testing User Stories from the User Experience (UX) Section
 
  * First Time Visitor Goals
 
- i. As a first time visitor to the website, I want to be able to immediately grasp to purpose of the website and the services on offer.
+ i. As a first time visitor to the website, I want to be able to immediately grasp the purpose of the website and the services on offer.
 
 a. The landing page immediately presents the user with a large and appealing image of a hand-built guitar. Over-lain across this hero image is some descriptive text detailing the nature of the website, and a "Products" button, to easily take the user to view further more detailed information about the business. 
 
@@ -192,7 +195,7 @@ a. The website is designed with a sleek and intuitive navigation bar at the top 
 
 b. The footer is consistent across all pages, offering links icons to all the relevant social media platforms.
 
-c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for a products. At the bottom of the page is both an imbedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
+c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for  products. At the bottom of the page is both an imbedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
 
 .iii I want to develop a sense of trust and connection to the brand through testimonials and social proof. This includes a well displayed social media footprint. 
 
@@ -204,11 +207,11 @@ b. At the footer of each page are well displayed and interactive icon links, dir
 
  i. As a returning visitor I want to be able view visual updates of current and past guitar builds. 
 
-a. The website features a sleek and clean gallery section. This allows for an aesthetically pleasing place to show off the brands current and past builds to prospective customers and followers of the workshop. Further information can also be accessed by hovering the cursor over each image.
+a. The website features a sleek and clean gallery section. This allows for an aesthetically pleasing space to show off the brands current and past builds to prospective customers and followers of the workshop. Further information can also be accessed by hovering the cursor over each image.
 
 b. The footer contains clear links to all of the brands social media accounts, such as Facebook and Instagram. On these accounts visual updates from the brand could easily be shared and viewed.
 
-ii. I want to easily be able contact the business to discuss ordering a guitar.
+ii. I want to be able to easily contact the business to discuss ordering a guitar.
 
 a. The contact page features an intuitive and detailed contact form through which customers can go in-depth with their questions or requirements.
 
@@ -218,14 +221,11 @@ c. The website features two easy ways to view the current build options and pric
 
 D. The products page shows in depth all of the possible build options for the guitars. This includes images of the wood, a written description of their tonal qualities, and an audio demonstration. 
 
-### Site Owner Goals
-
-
 ## Further Testing
 ---
 ### Validator Results
 
-* All Html pages passed through the official [W3C Validator](https://validator.w3.org) validator with no errors. On the gallery page a warning was displayed due a lack of heading elements. This is intentional as the gallery is a masonry image display page and needs no heading. 
+* All Html pages passed through the official [W3C Validator](https://validator.w3.org) validator with no errors. On the gallery page a warning was displayed due a lack of heading elements. This is intentional as the gallery is a masonry image display page and therefore needs no heading. 
 Results can be found here:
 [Landing Page](assets/compressed-images/validator-results/index-min.png)|[Gallery](assets/compressed-images/validator-results/gallery-min.png)|[Products Page](assets/compressed-images/validator-results/products-min.png)|[Contact Page](assets/compressed-images/validator-results/contact-min.png)
 
@@ -250,15 +250,15 @@ CSS validation results can be found [Here](assets/compressed-images/validator-re
 
 * On one of the iPads tested, when using the Safari browser the hero image on index.html only loads halfway. This did not happen when using the Chrome browser instead. This also does not occur every time. 
 
-* On the iPad air the hero image loads roughly 3/4 of the way when using Safari. Again, this only happens some of the time.
+* On the iPad air the hero image sometimes only loads 3/4 of the way when using Safari. Again, this only happens some of the time.
 
-* On certain medium screen-sizes some of the gallery images begin to overlap eachother. 
+* On certain medium screen-sizes some of the gallery images begin to slightly overlap eachother. 
 
 ### Notable Solved Bugs
 
 * When using the Safari browser on any device, the font awesome icons in the footer displayed further left than intended. On all other browsers they displayed where I meant them too.
 
-   a. I solved this by using Safari only media queries to push the icons over by 70px. The solution was my own idea, however I googled the code for the Safari media queries, and found it on [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css). 
+   a. I solved this by using Safari only media queries to push the icons over by 70px. The solution was my own idea, however I googled the code for the Safari media queries, and found it on [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css). Whilst this fixed the visually disruptive bug of misalligned icons, it also created a small parse error in the CSS validator, as mentioned above.
 
 * When testing the website using Chrome Developer tools, white space appeared to the right of the webpage when the screen size was reduced enough. 
 
@@ -281,9 +281,6 @@ would solve the issue. This worked to some extent, however the "overflow-x:hidde
     }`
 
 * Initially the hover cards in the gallery caused the image to jitter and change size slightly when hovered. I solved this by setting the display property of the gallery to flex.  
-
-### Accessibility Tests
----
 
 ## Deployment
 ---
