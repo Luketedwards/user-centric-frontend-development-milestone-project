@@ -152,31 +152,31 @@ The pricing link offers users the option to either view or download a comprehens
 
 ### Framework & Libraries Used
 
-1. Bootstrap 4.4.1:
+1. [Bootstrap 4.4.1](https://getbootstrap.com/):
   * Bootstrap was utilised to quickly build a responsive framework for the website, before being overwritten with a custom CSS stylesheet to add my own style.
 
-2. Google Fonts:
+2. [Google Fonts](https://fonts.google.com/):
    * Google Fonts was used to import the "Satisfy" and "Playfair Display" fonts into my style sheet. I also used Google Fonts to download these fonts to my machine for creating the "Price List" PDF and favicon image in Affinity Photo.
 
-3. Font Awesome:
+3. [Font Awesome](https://fontawesome.com/):
    * Font Awesome was used to provide icons to social media on all of the webpages in my project.
 
-4. Git:
+4. [Git](https://git-scm.com/):
    * Git was used for version control to backup my project. I did this through terminal commands to commit to Git and push externally to GitHub.
 
-5. GitHub:
+5. [GitHub](https://github.com/):
    * GitHub was used to store all of my project code after being pushed from Git.
 
-6. Affinity Photo/Publisher:
+6. [Affinity Photo/Publisher](https://affinity.serif.com/en-gb/photo/):
   * Affinity software was used to create my "Price List" PDF and my favicon image. 
 
-7. Balsamiq:
+7. [Balsamiq](https://balsamiq.com/):
   * Balsamiq was used to generate my wireframes to guide my design process.
 
-8. Logic Pro X
+8. [Logic Pro X](https://www.apple.com/uk/logic-pro/):
   * Logic Pro X was used to capture and edit the audio for the products page. I improvised an acoustic track, and then equalised it 9 different times to represent the effect of the wood/body choice on the products page.
 
-9. [Real Favicon Generator](https://realfavicongenerator.net)
+9. [Real Favicon Generator](https://realfavicongenerator.net):
    * Real Favicon Generator was used to turn the image I created into a favicon.ico file.
 
 # Testing User Stories from the User Experience (UX) Section
