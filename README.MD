@@ -150,7 +150,7 @@ The pricing link offers users the option to either view or download a comprehens
 * HTML5
 * CSS3
 
-### Framework & Libraries Used
+### Framework, Software & Libraries Used
 
 1. [Bootstrap 4.4.1](https://getbootstrap.com/):
   * Bootstrap was utilised to quickly build a responsive framework for the website, before being overwritten with a custom CSS stylesheet to add my own style.
