@@ -901,7 +901,7 @@ iframe {
 /* Code taken from Browserstack(See README.MD*/
 /* Safari 11+ */
 @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) {
+    @supports (-webkit-appearance:none) and (stroke-color:transparent) {
         .footer-text p {
             margin-right: 70px;
         }
@@ -910,7 +910,7 @@ iframe {
 
 /* Safari 10.1 */
 @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) {
+    @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
         .footer-text p {
             margin-right: 70px;
         }
@@ -923,7 +923,7 @@ iframe {
         margin-right: 70px;}
 }
 
-/*-------------------------- Keyframe animations */
+ /*-------------------------- Keyframe animations*/
 @keyframes hero-zoom {
     from {
         transform: scale(1);
