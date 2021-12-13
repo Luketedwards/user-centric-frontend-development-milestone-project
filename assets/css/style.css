@@ -901,7 +901,7 @@ iframe {
 /* Code taken from Browserstack(See README.MD*/
 /* Safari 11+ */
 @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    @supports (-webkit-appearance:none) {
         .footer-text p {
             margin-right: 70px;
         }
@@ -910,17 +910,11 @@ iframe {
 
 /* Safari 10.1 */
 @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+    @supports (-webkit-appearance:none) {
         .footer-text p {
             margin-right: 70px;
         }
     }
-}
-
-/* Safari 6.1-10.0 (but not 10.1) */
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-    .footer-text p {
-        margin-right: 70px;}
 }
 
  /*-------------------------- Keyframe animations*/
