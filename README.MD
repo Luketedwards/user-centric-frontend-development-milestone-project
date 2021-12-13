@@ -229,10 +229,9 @@ D. The products page shows in depth all of the possible build options for the gu
 Results can be found here:
 [Landing Page](assets/compressed-images/validator-results/index-min.png)|[Gallery](assets/compressed-images/validator-results/gallery-min.png)|[Products Page](assets/compressed-images/validator-results/products-min.png)|[Contact Page](assets/compressed-images/validator-results/contact-min.png)
 
-* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with three issues.
-   1. The Safari Media queries "Stroke-color" property of "transparent" was not recognised. I attempted to resolve this but changing it but it caused my Safari browser bug fix to no longer work. This accounts for two of the errors.
+* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with one issue.
 
-   2. A parse error was recorded. From what I can tell from research this appears to be some strange invisible character that I cannot delete from my CSS file. I have tried many times to solve this issue but the parse error always displays. I think this may be linked to the unrecognised "stroke-color" property as it happens just below that rule. 
+   1. A parse error was recorded. From what I can tell from research this appears to be some strange invisible character that I cannot delete from my CSS file. I have tried many times to solve this issue but the parse error always displays. I think this may be linked to the unrecognised "stroke-color" property as it happens just below that rule. 
 
 CSS validation results can be found [Here](assets/compressed-images/validator-results/css-min.png)
 
@@ -258,7 +257,7 @@ CSS validation results can be found [Here](assets/compressed-images/validator-re
 
 * When using the Safari browser on any device, the font awesome icons in the footer displayed further left than intended. On all other browsers they displayed where I meant them too.
 
-   a. I solved this by using Safari only media queries to push the icons over by 70px. The solution was my own idea, however I googled the code for the Safari media queries, and found it on [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css). Whilst this fixed the visually disruptive bug of misalligned icons, it also created a small parse error in the CSS validator, as mentioned above.
+   a. I solved this by using Safari only media queries to push the icons over by 70px. The solution was my own idea, however I googled the code for the Safari media queries, and found it on [Browserstack](https://www.browserstack.com/guide/create-browser-specific-css).
 
 * When testing the website using Chrome Developer tools, white space appeared to the right of the webpage when the screen size was reduced enough. 
 
