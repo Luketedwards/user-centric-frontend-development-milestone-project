@@ -917,6 +917,12 @@ iframe {
     }
 }
 
+/* Safari 6.1-10.0 (but not 10.1) */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    .footer-text p {
+        margin-right: 70px;}
+}
+
 /*-------------------------- Keyframe animations */
 @keyframes hero-zoom {
     from {
