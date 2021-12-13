@@ -229,11 +229,9 @@ D. The products page shows in depth all of the possible build options for the gu
 Results can be found here:
 [Landing Page](assets/compressed-images/validator-results/index-min.png)|[Gallery](assets/compressed-images/validator-results/gallery-min.png)|[Products Page](assets/compressed-images/validator-results/products-min.png)|[Contact Page](assets/compressed-images/validator-results/contact-min.png)
 
-* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with one issue.
+* The CSS stylesheet passed through the official [W3C Validator](https://validator.w3.org) with no issues.
 
-   1. A parse error was recorded. From what I can tell from research this appears to be some strange invisible character that I cannot delete from my CSS file. I have tried many times to solve this issue but the parse error always displays. I think this may be linked to the unrecognised "stroke-color" property as it happens just below that rule. 
-
-CSS validation results can be found [Here](assets/compressed-images/validator-results/css-min.png)
+CSS validation results can be found [Here](assets/compressed-images/validator-results/new-css-validator-results.png)
 
 ### Manual Testing
 
