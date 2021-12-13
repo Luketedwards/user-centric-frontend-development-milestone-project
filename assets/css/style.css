@@ -774,7 +774,9 @@ iframe {
 
 .guitar-photos {
     margin-bottom: 6px;
-    aspect-ratio: 1.5/2;
+    
+    height: 40rem;
+    width: 28rem;
     border-radius: 5px;
 }
 
@@ -795,7 +797,28 @@ iframe {
 
 /*-------------------------- Media Queries*/
 
+@media screen and (max-width: 1360px) {
+    .guitar-photos{
+        height: 36rem;
+        width: 23rem;
+    }
+    
+}
 
+@media screen and (max-width: 1110px) {
+    .guitar-photos{
+        height: 33rem;
+        width: 20rem;
+    }
+    
+}
+
+@media screen and (max-width: 1109px) {
+    .guitar-photos{
+        aspect-ratio: 1.5/2;
+    }
+    
+}
 
 @media screen and (max-width: 991px) {
     .contact-details {
@@ -828,8 +851,6 @@ iframe {
     #pricing-normal-link {
         display: none;
     }
-
-
 }
 
 @media screen and (max-width: 767px) {
