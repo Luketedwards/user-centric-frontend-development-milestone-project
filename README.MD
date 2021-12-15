@@ -61,10 +61,10 @@ If I were to rename it, it would be called "Hiraeth-Guitars" for obvious reasons
 ### Wireframes
 Wire frames were generated using Balsamiq, and can be viewed below.
 
-* [Home Page](assets/wireframes/Home-page-min.png)
+* [Home Page](assets/wireframes/Home-Page-min.png)
 * [Gallery](assets/wireframes/gallery-new-min.png)
-* [Products Page](assets/wireframes/Products-page-min.png)
-* [Contact Page](assets/wireframes/Contact-page-min.png)
+* [Products Page](assets/wireframes/Products-Page-min.png)
+* [Contact Page](assets/wireframes/Contact-Page-min.png)
 
 In general, I stuck closely to my initial wireframe designs, however I did make some small adjustments as I progressed through the development process. For the Gallery page, I opted to both omit the 'Gallery' title, in favour of a cleaner masonry design. I also implemented hover cards over the images which were not present in my wireframe. 
 
