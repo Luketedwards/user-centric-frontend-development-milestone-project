@@ -308,7 +308,6 @@ p {
     z-index: 4;
 }
 
-
 .hero-text {
     position: absolute;
     top: 50%;
@@ -360,14 +359,10 @@ p {
     column-gap: 0;
     background-color: #64485c;
     vertical-align: bottom;
-
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
-
-
 
 #gallery-container-1 {
     background-image: url("../compressed-images/Guitar-side-dark.jpeg");
@@ -539,7 +534,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     vertical-align: bottom;
-
 }
 
 .gallery-container img {
@@ -559,8 +553,6 @@ p {
     border: 0;
     z-index: 1100;
     display: flex;
-
-
 }
 
 .gallery-card:hover {
@@ -589,10 +581,7 @@ p {
     left: 15%;
     text-align: center;
     padding: 0;
-
 }
-
-
 
 #gallery-section {
     width: 100%;
@@ -608,7 +597,6 @@ p {
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
-
 }
 
 .contact-page {
@@ -621,7 +609,6 @@ p {
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
-
 }
 
 .contact-page h2 {
@@ -636,7 +623,6 @@ p {
     font-family: "Playfair display", sans-serif;
     border: solid black 2px;
     border-radius: 10px;
-
 }
 
 .contact-details {
@@ -774,7 +760,6 @@ iframe {
 
 .guitar-photos {
     margin-bottom: 6px;
-    
     height: 40rem;
     width: 28rem;
     border-radius: 5px;
@@ -792,7 +777,6 @@ iframe {
     height: 6px;
     border-radius: 10px;
     margin-bottom: 20px;
-
 }
 
 /*-------------------------- Media Queries*/
@@ -874,8 +858,6 @@ iframe {
         margin-bottom: 10px;
         padding-left: 10px;
     }
-
-
 
     #contact-text-area {
         padding-top: 0;

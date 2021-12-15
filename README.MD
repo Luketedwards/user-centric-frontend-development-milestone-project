@@ -180,6 +180,9 @@ The pricing link offers users the option to either view or download a comprehens
 9. [Real Favicon Generator](https://realfavicongenerator.net):
    * Real Favicon Generator was used to turn the image I created into a favicon.ico file.
 
+10. [Website Mockup Generator](https://websitemockupgenerator.com)
+   * Website Mockup Generator was used to create the website mockup at the start of this README.
+
 # Testing User Stories from the User Experience (UX) Section
 
  * First Time Visitor Goals
@@ -196,11 +199,11 @@ a. The website is designed with a sleek and intuitive navigation bar at the top 
 
 b. The footer is consistent across all pages, offering links icons to all the relevant social media platforms.
 
-c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for  products. At the bottom of the page is both an imbedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
+c. On the contact page there is an intuitive contact form for customers to submit their email address, and questions or build specifications for  products. At the bottom of the page is both an embedded i-frame map showing the location of the workshop, along with a contact details tab, which provides the relevant email address and phone number of the business. The email address is also an anchor tag, which when clicked directs the customers device to automatically generate an email draft.
 
 .iii I want to develop a sense of trust and connection to the brand through testimonials and social proof. This includes a well displayed social media footprint. 
 
-a. On the landing page are clearly displayed customer testimonials, featuring both the names and photo's of happy clientele. 
+a. On the landing page are clearly displayed customer testimonials, featuring both the names and photos of happy clientele. 
 
 b. At the footer of each page are well displayed and interactive icon links, directing to all of the relevant social media accounts for the brand. 
 
@@ -251,6 +254,11 @@ CSS validation results can be found [Here](assets/compressed-images/validator-re
 * On the iPad air the hero image sometimes only loads 3/4 of the way when using Safari. Again, this only happens some of the time.
 
 * On certain medium screen-sizes some of the gallery images begin to slightly overlap eachother. 
+
+* When viewing the deployed site using Google developer tools, the following error message is displayed in the console.
+> "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'."
+
+   From my research this appears to be a quirk with Github pages trying to block Google's new tracking technology "FLoc".
 
 ### Notable Solved Bugs
 
